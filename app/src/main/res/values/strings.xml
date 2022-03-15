@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TopJobs</string>
+    <string name="CreateIcon">CreateIcon</string>
+    <string-array name="names">
+        <item>Western</item>
+        <item>Western</item>
+        <item>Western</item>
+        <item>Western</item>
+        <item>Western</item>
+        <item>Western</item>
+        <item>Western</item>
+    </string-array>
+</resources>
