@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">TopJobs</string>
     <string name="CreateIcon">CreateIcon</string>
+    <string name="CompanyName">Company Name</string>
+    <string name="Jobtitle">Job Title</string>
+    <string name="Salary">Salary</string>
+    <string name="Description">Description</string>
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+    <string name="Type">Job Type</string>
     <string-array name="names">
         <item>Western</item>
         <item>Western</item>
