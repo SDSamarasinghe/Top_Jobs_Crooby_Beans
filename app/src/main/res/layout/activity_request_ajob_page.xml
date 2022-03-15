@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
-        android:text="Create New Job"
+        android:text="Request a Job"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -53,16 +53,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/inputCompanyName"
+        android:id="@+id/reqJobtitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_border"
-        android:drawableStart="@drawable/ic_companyname"
+        android:drawableStart="@drawable/ic_company_title"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/CompanyName"
+        android:hint="@string/reqJobtitle"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +71,7 @@
 
 
     <EditText
-        android:id="@+id/inputJobtitle"
+        android:id="@+id/inputreqName"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -81,16 +81,16 @@
         android:drawableStart="@drawable/ic_company_title"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/Jobtitle"
+        android:hint="@string/reqName"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputCompanyName" />
+        app:layout_constraintTop_toBottomOf="@+id/reqJobtitle" />
 
     <EditText
-        android:id="@+id/inputSalary"
+        android:id="@+id/inputreqAge"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -100,103 +100,71 @@
         android:drawableStart="@drawable/ic_company_title"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/Salary"
+        android:hint="@string/reqAge"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputJobtitle" />
+        app:layout_constraintTop_toBottomOf="@+id/inputreqName" />
 
     <EditText
-        android:id="@+id/inputDescription"
+        android:id="@+id/inputreqDesc"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_border"
-        android:drawableStart="@drawable/ic_company_description"
+        android:drawableStart="@drawable/ic_company_title"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/Description"
+        android:hint="@string/reqDesc"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputSalary" />
+        app:layout_constraintTop_toBottomOf="@+id/inputreqAge" />
 
     <EditText
-        android:id="@+id/inputEmailAddress"
+        android:id="@+id/inputreqEmail"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_border"
-        android:drawableStart="@drawable/ic_email"
+        android:drawableStart="@drawable/ic_company_title"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/Email"
+        android:hint="@string/reqEmail"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputDescription" />
+        app:layout_constraintTop_toBottomOf="@+id/inputreqDesc" />
 
     <EditText
-        android:id="@+id/inputPhone"
+        android:id="@+id/inputreqPhone"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_border"
-        android:drawableStart="@drawable/ic_company_phone"
+        android:drawableStart="@drawable/ic_company_title"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="@string/Phone"
+        android:hint="@string/reqPhone"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputEmailAddress" />
+        app:layout_constraintTop_toBottomOf="@+id/inputreqEmail" />
 
-
-    <Spinner
-        android:id="@+id/inputType"
-        android:layout_width="346dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:background="@drawable/round_border"
-        android:drawablePadding="16dp"
-        android:ems="10"
-        android:hint="@string/Type"
-        android:inputType="textEmailAddress"
-        android:padding="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/btnCreatejob"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputPhone"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="30dp"
-        android:layout_height="37dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/inputType"
-        app:layout_constraintHorizontal_bias="0.955"
-        app:layout_constraintStart_toStartOf="@+id/inputType"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.815"
-        app:srcCompat="@drawable/ic_down" />
 
     <Button
         android:id="@+id/btnCreatejob"
@@ -205,7 +173,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:background="@drawable/round_bg"
-        android:text="Create"
+        android:text="Request"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -213,35 +181,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintTop_toTopOf="@+id/topView"
+        app:layout_constraintVertical_bias="0.945" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="177dp"
         android:layout_height="37dp"
+        android:layout_marginBottom="44dp"
         android:backgroundTint="#AAA2A2"
         android:text="Add image"
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/btnCreatejob"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintHorizontal_bias="0.136"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputType"
-        app:layout_constraintVertical_bias="0.473" />
+        app:layout_constraintTop_toBottomOf="@+id/inputreqPhone"
+        app:layout_constraintVertical_bias="0.775" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="112dp"
-        android:layout_height="31dp"
-        android:text="Job Type"
-        android:textColor="#B8B1B1"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCreatejob"
-        app:layout_constraintEnd_toEndOf="@+id/inputType"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="@+id/inputType"
-        app:layout_constraintTop_toBottomOf="@+id/inputPhone"
-        app:layout_constraintVertical_bias="0.229" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class View_requested_job extends AppCompatActivity {
+public class Request_a_job_page extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_view_requested_job);
+        setContentView(R.layout.activity_request_ajob_page);
     }
 }

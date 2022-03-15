@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TopJobs">
         <activity
-            android:name=".View_requested_job"
+            android:name=".Request_a_job_page"
+            android:exported="false" />
+        <activity
+            android:name=".View_requested_job_view"
             android:exported="false" />
         <activity
             android:name=".Create_Job"

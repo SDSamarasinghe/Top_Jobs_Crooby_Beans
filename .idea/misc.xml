@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/TopJobs/app/src/main/res/drawable/ic_back.xml" value="0.2675" />
         <entry key="..\:/TopJobs/app/src/main/res/drawable/ic_company_description.xml" value="0.2675" />
         <entry key="..\:/TopJobs/app/src/main/res/drawable/ic_company_phone.xml" value="0.2675" />
         <entry key="..\:/TopJobs/app/src/main/res/drawable/ic_company_province.xml" value="0.2675" />
@@ -11,10 +12,14 @@
         <entry key="..\:/TopJobs/app/src/main/res/drawable/ic_down.xml" value="0.2675" />
         <entry key="..\:/TopJobs/app/src/main/res/drawable/ic_email.xml" value="0.2675" />
         <entry key="..\:/TopJobs/app/src/main/res/drawable/ic_person.xml" value="0.3625" />
+        <entry key="..\:/TopJobs/app/src/main/res/drawable/round_bg.xml" value="0.2675" />
+        <entry key="..\:/TopJobs/app/src/main/res/drawable/round_border.xml" value="0.2675" />
         <entry key="..\:/TopJobs/app/src/main/res/drawable/rounded_corner_view.xml" value="0.3625" />
         <entry key="..\:/TopJobs/app/src/main/res/drawable/wave.xml" value="0.196" />
-        <entry key="..\:/TopJobs/app/src/main/res/layout/activity_create_job.xml" value="0.33" />
+        <entry key="..\:/TopJobs/app/src/main/res/layout/activity_create_job.xml" value="0.25" />
         <entry key="..\:/TopJobs/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/TopJobs/app/src/main/res/layout/activity_request_ajob_page.xml" value="0.25" />
+        <entry key="..\:/TopJobs/app/src/main/res/layout/activity_view_requested_job.xml" value="0.33" />
       </map>
     </option>
   </component>

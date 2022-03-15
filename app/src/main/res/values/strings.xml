@@ -8,6 +8,12 @@
     <string name="Email">Email</string>
     <string name="Phone">Phone</string>
     <string name="Type">Job Type</string>
+    <string name="reqJobtitle">Job Title</string>
+    <string name="reqName">Enter Name</string>
+    <string name="reqAge">Enter Age</string>
+    <string name="reqDesc">Enter Description</string>
+    <string name="reqEmail">Enter Email</string>
+    <string name="reqPhone">Enter Phone No</string>
     <string-array name="names">
         <item>Western</item>
         <item>Western</item>
