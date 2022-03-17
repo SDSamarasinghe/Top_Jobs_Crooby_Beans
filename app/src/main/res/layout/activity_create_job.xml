@@ -208,7 +208,7 @@
             android:layout_height="51dp"
             android:layout_marginLeft="120dp"
             android:backgroundTint="@color/colorPrimary"
-            android:text="Create"
+            android:text="create"
             app:cornerRadius="30dp" />
 
 
