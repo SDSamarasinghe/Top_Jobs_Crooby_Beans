@@ -36,16 +36,7 @@
         <entry key="..\:/TopJobs/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="..\:/TopJobs/app/src/main/res/layout/activity_request_ajob_page.xml" value="0.25" />
         <entry key="..\:/TopJobs/app/src/main/res/layout/activity_view_requested_job.xml" value="0.33" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/drawable-anydpi/ic_password.xml" value="0.1535" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/drawable/ic_back.xml" value="0.1605" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_create_job.xml" value="0.22" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_dummy.xml" value="0.25" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_edit_delete_jobs.xml" value="0.25" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_edit_requested_job.xml" value="0.1734375" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_jobs_edit_delete.xml" value="0.25" />
         <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_user_login.xml" value="0.1734375" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_user_registration.xml" value="0.1734375" />
-        <entry key="..\:/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_view_requested_job.xml" value="0.1" />
       </map>
     </option>
   </component>
