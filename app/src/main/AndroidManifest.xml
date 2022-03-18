@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TopJobs">
         <activity
-            android:name=".Create_Job"
+            android:name=".MyRequestedJobs"
+            android:exported="false" />
+        <activity
+            android:name=".MySavedRequestedJobs"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".ViewJob"
+            android:exported="false" />
+        <activity
+            android:name=".My_Saved_Jobs"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -19,13 +31,13 @@
             android:name=".Request_a_job_page"
             android:exported="false" />
         <activity
-            android:name=".Edit_Requested_Job"
-            android:exported="false" />
-        <activity
             android:name=".View_requested_job_view"
             android:exported="false" />
         <activity
-            android:name=".Edit_profile"
+            android:name=".Create_Job"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Requested_Job"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

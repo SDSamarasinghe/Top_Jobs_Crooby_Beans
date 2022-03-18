@@ -13,6 +13,7 @@
         android:layout_height="60dp"
         android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="20dp"
-        android:text="Edit Requested Job"
+        android:text="@string/edit_requested_job"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -49,7 +50,8 @@
         app:layout_constraintStart_toEndOf="@+id/editTopText"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.16"
-        app:srcCompat="@android:drawable/ic_menu_delete" />
+        app:srcCompat="@android:drawable/ic_menu_delete"
+        android:contentDescription="@string/todo29" />
 
     <EditText
         android:id="@+id/edinputJobtitle"
@@ -62,13 +64,14 @@
         android:drawableStart="@drawable/ic_baseline_work"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="Software Developer"
+        android:hint="@string/software_developer"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editInputName"
@@ -81,13 +84,14 @@
         android:drawableStart="@drawable/ic_baseline_person"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="Tharindu Dimantha"
+        android:hint="@string/tharindu_dimantha"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editInputAge"
@@ -100,13 +104,14 @@
         android:drawableStart="@drawable/ic_baseline_age"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="24"
+        android:hint="@string/_24"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        android:autofillHints="" />
 
     <!--suppress AndroidDomInspection -->
 
@@ -121,13 +126,14 @@
         android:drawableStart="@drawable/ic_baseline_gender"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="Male"
+        android:hint="@string/male2"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editInputDescription"
@@ -140,13 +146,13 @@
         android:drawableStart="@drawable/ic_baseline_pen"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="Hi, I am looking for a software developer job.
-         I am graduated from SLIIT at 2022 with a 1st class IT Degree "
+        android:hint="@string/hi_i_am_looking_for_a_software_developer_job_i_am_graduated_from_sliit_at_2022_with_a_1st_class_it_degree"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editInputEmailAddress"
@@ -159,13 +165,14 @@
         android:drawableStart="@drawable/ic_baseline_email"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="tharindu.d97@gmail.com"
+        android:hint="@string/tharindu_d97_gmail_com"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        android:autofillHints="" />
 
     <!--suppress AndroidDomInspection -->
     <EditText
@@ -179,24 +186,24 @@
         android:drawableStart="@drawable/ic_baseline_phone_24"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="0741520458"
+        android:hint="@string/_0741520458"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view5" />
+        app:layout_constraintTop_toBottomOf="@+id/view5"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"
-        android:text="Button"
+        android:text="@string/edit2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editInputPhone" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
