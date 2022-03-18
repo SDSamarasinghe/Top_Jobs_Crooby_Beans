@@ -16,13 +16,13 @@
             android:name=".Edit_profile"
             android:exported="false" />
         <activity
-            android:name=".Create_Job"
+            android:name=".user_registration"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".Request_a_job_page"
+            android:name=".Create_Job"
             android:exported="false" />
         <activity
             android:name=".Edit_Requested_Job"
@@ -31,7 +31,7 @@
             android:name=".View_requested_job_view"
             android:exported="false" />
         <activity
-            android:name=".user_registration"
+            android:name=".Request_a_job_page"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
