@@ -74,5 +74,10 @@
     </string-array>
     <string name="signin">Sign in</string>
     <string name="signup">Sign up</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="agree">"I Agree to Term"</string>
+    <string name="repassword">Re-enter password</string>
+
 
 </resources>
