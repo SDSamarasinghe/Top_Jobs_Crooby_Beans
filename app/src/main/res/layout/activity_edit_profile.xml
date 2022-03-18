@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,7 +24,7 @@
         android:layout_below="@id/Ed_profile"
         android:layout_centerHorizontal="true"
         android:layout_margin="5dp"
-        android:text="Profile"
+        android:text="@string/profile"
         android:textColor="#000"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -37,14 +36,15 @@
         android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
-        android:text="Android developer" />
+        android:text="@string/android_developer" />
 
     <ImageView
         android:id="@+id/Ed_wave_pic"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_below="@+id/Ed_desc"
-        android:src="@drawable/profileui" />
+        android:src="@drawable/profileui"
+        android:contentDescription="@string/todo" />
 
     <LinearLayout
         android:id="@+id/Ed_name"
@@ -58,24 +58,28 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_marginStart="60dp"
             android:layout_marginTop="5dp"
-            android:text="Name"
+            android:text="@string/name"
             android:textColor="#000"
             android:textSize="18sp" />
 
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:layout_marginLeft="70dp" />
+            android:layout_marginStart="70dp"
+            android:contentDescription="@string/todo" />
 
         <EditText
             android:id="@+id/Ed_name_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:background="@drawable/border2"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:autofillHints="name"
+            android:inputType="textPersonName"
+            tools:ignore="LabelFor" />
 
     </LinearLayout>
 
@@ -91,25 +95,29 @@
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:layout_marginLeft="70dp" />
+            android:layout_marginStart="70dp"
+            android:contentDescription="@string/todo" />
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-50dp"
+            android:layout_marginStart="-50dp"
             android:layout_marginTop="5dp"
-            android:layout_marginRight="50dp"
-            android:text="Contact number"
+            android:layout_marginEnd="50dp"
+            android:text="@string/contact_number"
             android:textColor="#000"
             android:textSize="18sp" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
             android:background="@drawable/border2"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:autofillHints="Contact"
+            android:inputType="textAutoComplete"
+            tools:ignore="LabelFor" />
 
     </LinearLayout>
 
@@ -125,14 +133,15 @@
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:layout_marginLeft="70dp" />
+            android:layout_marginStart="70dp"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-50dp"
+            android:layout_marginStart="-50dp"
             android:layout_marginTop="5dp"
-            android:text="Gender"
+            android:text="@string/gender"
             android:textColor="#000"
             android:textSize="18sp" />
 
@@ -140,7 +149,7 @@
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
+            android:layout_marginStart="120dp"
             android:background="@drawable/border2"
             android:entries="@array/gender_sm"
             android:textColor="#E8E3E3" />
@@ -160,14 +169,15 @@
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:layout_marginLeft="70dp" />
+            android:layout_marginStart="70dp"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-50dp"
+            android:layout_marginStart="-50dp"
             android:layout_marginTop="5dp"
-            android:text="District"
+            android:text="@string/pr_district"
             android:textColor="#000"
             android:textSize="18sp" />
 
@@ -176,7 +186,7 @@
             android:id="@+id/Ed_district_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
+            android:layout_marginStart="120dp"
             android:background="@drawable/border2"
             android:entries="@array/districts_sm"
             android:textColor="#E8E3E3" />
@@ -196,14 +206,15 @@
         <ImageView
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:layout_marginLeft="70dp" />
+            android:layout_marginStart="70dp"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-50dp"
+            android:layout_marginStart="-50dp"
             android:layout_marginTop="5dp"
-            android:text="Email"
+            android:text="@string/pr_email"
             android:textColor="#000"
             android:textSize="18sp" />
 
@@ -211,9 +222,12 @@
             android:id="@+id/Ed_Email_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
+            android:layout_marginStart="130dp"
             android:background="@drawable/border2"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:autofillHints="Email"
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor" />
 
     </LinearLayout>
 
@@ -231,13 +245,15 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="135dp"
+            android:layout_marginStart="160dp"
             android:background="@drawable/round_border"
             android:backgroundTint="#9C27B0"
-            android:text="Update"
+            android:drawableTint="@color/colorPrimary"
+            android:text="@string/pr_buttonupdate"
 
 
-            android:textColor="#FAFAFA" />
+            android:textColor="#FAFAFA"
+            tools:targetApi="m" />
 
     </LinearLayout>
 
