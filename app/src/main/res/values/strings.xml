@@ -72,4 +72,7 @@
         <item> Male</item>
         <item> Female</item>
     </string-array>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+
 </resources>
