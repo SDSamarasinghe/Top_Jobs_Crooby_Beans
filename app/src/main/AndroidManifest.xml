@@ -9,6 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TopJobs">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".user_registration"
+            android:exported="false" />
+        <activity
+            android:name=".user_login"
+            android:exported="false" />
         <activity
             android:name=".Request_a_job_page"
             android:exported="false" />
@@ -19,7 +29,7 @@
             android:name=".Create_Job"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".jobs_edit_delete"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

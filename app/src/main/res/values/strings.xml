@@ -14,6 +14,18 @@
     <string name="reqDesc">Enter Description</string>
     <string name="reqEmail">Enter Email</string>
     <string name="reqPhone">Enter Phone No</string>
+    <string name="hintcompany">Virtusa</string>
+    <string name="title">Dev Engineer</string>
+    <string name="salarys">$400</string>
+    <string name="description">oding and deployment, to maintenance</string>
+    <string name="email">Virtusa@s.mail</string>
+    <string name="phone">+912234878</string>
+    <string name="types">devops</string>
+    <string name="addimages">Add Image</string>
+    <string name="deletejob">Delete Job</string>
+    <string name="editjob">Edit Job</string>
+    <string name="edittop">Edit Jobs</string>
+
     <string-array name="names">
         <item>Western</item>
         <item>Western</item>
@@ -32,4 +44,5 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="button">Button</string>
 </resources>
