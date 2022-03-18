@@ -11,9 +11,12 @@
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <View
         android:id="@+id/view6"
@@ -36,7 +39,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.023"
+        android:contentDescription="@string/todo7" />
 
     <ImageView
         android:id="@+id/imageView24"
@@ -49,7 +53,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.014"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/todo8" />
 
     <View
         android:id="@+id/divider11"
@@ -61,7 +66,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.185" />
+        app:layout_constraintVertical_bias="0.177" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -73,13 +78,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.216"
-        app:srcCompat="@drawable/virtusa_logo_pos" />
+        app:srcCompat="@drawable/virtusa_logo_pos"
+        android:contentDescription="@string/todo9" />
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Colombo"
+        android:text="@string/colombo"
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +98,7 @@
         android:id="@+id/textView32"
         android:layout_width="215dp"
         android:layout_height="48dp"
-        android:text="Find Your Job"
+        android:text="@string/find_your_job"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -105,20 +111,20 @@
 
     <SearchView
         android:id="@+id/searchView"
-        android:layout_width="153dp"
-        android:layout_height="29dp"
+        android:layout_width="166dp"
+        android:layout_height="44dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.993"
+        app:layout_constraintHorizontal_bias="0.934"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintVertical_bias="0.131" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="245dp"
         android:layout_height="37dp"
-        android:text="Full Stack Developer"
+        android:text="@string/full_stack_developer2"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -140,13 +146,14 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView24"
-        app:layout_constraintVertical_bias="0.259" />
+        app:layout_constraintVertical_bias="0.259"
+        android:contentDescription="@string/todo10" />
 
     <TextView
         android:id="@+id/textView33"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Time"
+        android:text="@string/full_time3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView31"
         app:layout_constraintHorizontal_bias="0.474"
@@ -176,13 +183,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.388"
-        app:srcCompat="@drawable/pearson" />
+        app:srcCompat="@drawable/pearson"
+        android:contentDescription="@string/todo12" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="245dp"
         android:layout_height="37dp"
-        android:text="Database Engineer"
+        android:text="@string/database_engineer2"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -197,7 +205,7 @@
         android:id="@+id/textView34"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Time"
+        android:text="@string/full_time4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.341"
@@ -216,13 +224,14 @@
         app:layout_constraintHorizontal_bias="0.994"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView24"
-        app:layout_constraintVertical_bias="0.421" />
+        app:layout_constraintVertical_bias="0.421"
+        android:contentDescription="@string/todo13" />
 
     <TextView
         android:id="@+id/textView35"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kegalle"
+        android:text="@string/kegalle"
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -253,7 +262,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.559"
-        app:srcCompat="@drawable/arimac" />
+        app:srcCompat="@drawable/arimac"
+        android:contentDescription="@string/todo14" />
 
     <View
         android:id="@+id/divider14"
@@ -272,7 +282,7 @@
         android:layout_width="151dp"
         android:layout_height="28dp"
         android:layout_marginTop="88dp"
-        android:text="Game Developer"
+        android:text="@string/game_developer"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -287,7 +297,7 @@
         android:id="@+id/textView37"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Time"
+        android:text="@string/full_time2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.341"
@@ -306,13 +316,14 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
+        app:layout_constraintVertical_bias="0.584"
+        android:contentDescription="@string/todo15" />
 
     <TextView
         android:id="@+id/textView38"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Galle"
+        android:text="@string/galle"
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -342,13 +353,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.729"
-        app:srcCompat="@drawable/hcl" />
+        app:srcCompat="@drawable/hcl"
+        android:contentDescription="@string/todo16" />
 
     <TextView
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Senior Software Engineer"
+        android:text="@string/senior_software_engineer"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -363,7 +375,7 @@
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Full Time"
+        android:text="@string/full_time3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.341"
@@ -382,13 +394,14 @@
         app:layout_constraintHorizontal_bias="0.997"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.744" />
+        app:layout_constraintVertical_bias="0.744"
+        android:contentDescription="@string/todo17" />
 
     <TextView
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Colombo"
+        android:text="@string/colombo2"
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -419,13 +432,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.903"
-        app:srcCompat="@drawable/codegen" />
+        app:srcCompat="@drawable/codegen"
+        android:contentDescription="@string/todo18" />
 
     <TextView
         android:id="@+id/textView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Android Developer"
+        android:text="@string/android_developer"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -440,7 +454,7 @@
         android:id="@+id/textView43"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Internship"
+        android:text="@string/internship"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.346"
@@ -459,13 +473,14 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.908" />
+        app:layout_constraintVertical_bias="0.908"
+        android:contentDescription="@string/todo19" />
 
     <TextView
         android:id="@+id/textView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Colombo"
+        android:text="@string/colombo3"
         android:textColor="@color/blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
