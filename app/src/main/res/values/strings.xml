@@ -14,13 +14,62 @@
     <string name="reqDesc">Enter Description</string>
     <string name="reqEmail">Enter Email</string>
     <string name="reqPhone">Enter Phone No</string>
-    <string-array name="names">
-        <item>Western</item>
-        <item>Western</item>
-        <item>Western</item>
-        <item>Western</item>
-        <item>Western</item>
-        <item>Western</item>
-        <item>Western</item>
+    <string name="title_activity_my_saved_jobs">My_Saved_Jobs</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="creComName">Company Name</string>
+    <string name="creTitle">Job Title</string>
+    <string name="creSalary">Salary</string>
+    <string name="creDsc">Description</string>
+    <string name="creEmail">Email</string>
+    <string name="crePhone">Phone</string>
+    <string name="select">Select Item</string>
+    <string name="district">District</string>
+    <string name="gender">Gender</string>
+    <string name="contact_number">Contact number</string>
+    <string name="name">Name</string>
+    <string name="profile">Profile</string>
+    <string name="edit">Edit</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="android_developer">Android developer</string>
+    <string-array name="districts_sm">
+        <item> Select District</item>
+        <item> Ampara</item>
+        <item> Anuradhapura</item>
+        <item> Badulla</item>
+        <item> Batticaloa</item>
+        <item> Colombo</item>
+        <item> Galle</item>
+        <item> Gampaha</item>
+        <item> Hambantota</item>
+        <item> Jaffna</item>
+        <item> Kalutara</item>
+        <item> Kandy</item>
+        <item> Kegalle</item>
+        <item> Kilinochchi</item>
+        <item> Kurunegala</item>
+        <item> Mannar</item>
+        <item> Matale</item>
+        <item> Matara</item>
+        <item> Monaragala</item>
+        <item> Mullaitivu</item>
+        <item> Nuwara Eliya</item>
+        <item> Polonnaruwa</item>
+        <item> Puttalam</item>
+        <item> Ratnapura</item>
+        <item> Trincomalee</item>
+        <item> Vavuniya</item>
+    </string-array>
+    <string-array name="gender_sm">
+        <item> Select Gender</item>
+        <item> Male</item>
+        <item> Female</item>
     </string-array>
 </resources>
