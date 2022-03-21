@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/people"
+            android:title="My Job Vacancies" />
+        <item
+            android:id="@+id/nav_savejobs"
+            android:icon="@drawable/save4"
+            android:title="Saved Jobs"
+            />
+
+        <item
+
+            android:id="@+id/findemployess"
+            android:icon="@drawable/searchperson"
+            android:title="Requested Jobs"
+            />
+
+        <item
+            android:id="@+id/savedrequested"
+            android:icon="@drawable/listnew"
+            android:title="My Requested Jobs"
+            />
+        <item
+            android:id="@+id/requested"
+            android:icon="@drawable/save4"
+            android:title="Saved Requested Jobs"
+            />
+
+        <item
+
+            android:id="@+id/calc"
+            android:icon="@drawable/calculator"
+            android:title="Calculate Salary"
+            />
+
+
+    </group>
+</menu>

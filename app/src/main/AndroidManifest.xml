@@ -10,16 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TopJobs">
         <activity
-            android:name=".Request_a_job_page"
-            android:exported="false" />
+            android:name=".My_requested_listings"
+            android:exported="false"
+            android:label="@string/title_activity_sample"
+            android:theme="@style/Theme.TopJobs.NoActionBar" />
+
         <activity
             android:name=".View_requested_job_view"
             android:exported="false" />
         <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppCompatTheme" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Request_a_job_page"
+            android:exported="false" />
+
+        <activity
             android:name=".Create_Job"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".My_job_listings"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
