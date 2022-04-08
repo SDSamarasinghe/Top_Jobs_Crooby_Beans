@@ -20,6 +20,7 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="forgotp">Forgot password</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
@@ -72,4 +73,20 @@
         <item> Male</item>
         <item> Female</item>
     </string-array>
+
+    <string-array name="type_jb">
+        <item> Job type</item>
+        <item> Full stack</item>
+        <item> backend</item>
+        <item> frontend</item>
+    </string-array>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="agree">"I Agree to Term"</string>
+    <string name="repassword">Re-enter password</string>
+    <string name="reqJobtype">jobtype</string>
+
+
 </resources>
