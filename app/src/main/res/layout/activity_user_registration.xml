@@ -13,7 +13,7 @@
         android:background="@drawable/round_border"
         android:drawableStart="@drawable/ic_email"
         android:ems="10"
-        android:hint="@string/Email"
+
         android:inputType="textPassword"
         android:textColor="@color/black"
         android:textColorHint="@color/Ash"
@@ -31,7 +31,7 @@
         android:background="@drawable/round_border"
         android:drawableStart="@drawable/ic_company_phone"
         android:ems="10"
-        android:hint="@string/Phone"
+
         android:inputType="textPassword"
         android:textColor="@color/black"
         android:textColorHint="@color/Ash"
@@ -49,7 +49,7 @@
         android:background="@drawable/round_border"
         android:drawableStart="@drawable/ic_lock"
         android:ems="10"
-        android:hint="@string/password"
+
         android:inputType="textPassword"
         android:textColor="@color/black"
         android:textColorHint="@color/Ash"
@@ -67,7 +67,7 @@
         android:background="@drawable/round_border"
         android:drawableStart="@drawable/ic_lock"
         android:ems="10"
-        android:hint="@string/repassword"
+
         android:inputType="textPassword"
         android:textColor="@color/black"
         android:textColorHint="@color/Ash"
@@ -102,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif"
-        android:text="@string/signup"
+
         android:textColor="#0D0D0D"
         android:textSize="48sp"
         android:textStyle="bold"
@@ -120,7 +120,7 @@
         android:background="@drawable/round_border"
         android:drawableStart="@drawable/ic_companyname"
         android:ems="10"
-        android:hint="@string/name"
+
         android:inputType="textPassword"
         android:textColor="@color/black"
         android:textColorHint="@color/Ash"
@@ -133,22 +133,14 @@
 
     <CheckBox
         android:id="@+id/checkBox"
-        android:layout_width="199dp"
-        android:layout_height="35dp"
-        android:text="@string/repassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.303"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword5"
-        app:layout_constraintVertical_bias="0.198" />
+
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"
-        android:text="@string/register"
+
         android:textColor="#F9F7F7"
         android:textStyle="bold"
         app:cornerRadius="50dp"
@@ -157,7 +149,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
-        app:layout_constraintVertical_bias="0.914" />
+
 
     <ImageView
         android:id="@+id/imageView4"
