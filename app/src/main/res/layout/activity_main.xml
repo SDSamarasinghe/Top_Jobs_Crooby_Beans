@@ -7,13 +7,48 @@
     android:background="#FFFFFF"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_arrow_back_24" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/open_sans"
+            android:gravity="center"
+            android:text="Account settings"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/open_sans"
+            android:gravity="center"
+            android:text="LogOut"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+
+    </LinearLayout>
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/v_profile_pic"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:src="@drawable/profile" />
 
     <TextView
@@ -22,6 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/v_profile_pic"
         android:layout_centerHorizontal="true"
+        android:fontFamily="@font/open_sans"
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
@@ -38,42 +74,51 @@
         android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"
+        android:fontFamily="@font/open_sans"
         android:text="@string/android_developer" />
 
     <ImageView
         android:id="@+id/imageview_pic"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="96dp"
         android:layout_below="@+id/v_job_type"
-        android:src="@drawable/profileui"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/todo"
+        android:fontFamily="@font/open_sans"
+        android:src="@drawable/bluewave3" />
 
     <LinearLayout
         android:id="@+id/linearlayout_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/open_sans"
         android:layout_below="@id/imageview_pic"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:textAlignment="center">
 
 
         <TextView
             android:id="@+id/V_name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
             android:layout_marginTop="5dp"
             android:text="@string/name"
             android:textColor="#000"
+            android:fontFamily="@font/open_sans"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/v_edit_name"
             android:layout_width="140dp"
             android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans"
+            android:background="@drawable/social_rouded_input"
             android:layout_marginStart="100dp"
             android:text="@string/name"
+            android:textAlignment="center"
             android:textSize="18sp" />
+
 
     </LinearLayout>
 
@@ -83,26 +128,32 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/linearlayout_1"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:textAlignment="center">
 
 
         <TextView
             android:id="@+id/v_contact"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans"
             android:text="@string/contact_number"
             android:textColor="#000"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/v_edit_phone"
+            android:id="@+id/v_edit_contact"
             android:layout_width="140dp"
             android:layout_height="match_parent"
-            android:layout_marginStart="20dp"
-            android:text="@string/Phone"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/social_rouded_input"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/contact_number"
+            android:textAlignment="center"
             android:textSize="18sp" />
+
 
     </LinearLayout>
 
@@ -112,30 +163,34 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/linearlayout_2"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:textAlignment="center">
 
 
         <TextView
-            android:id="@+id/v_gender"
+            android:id="@+id/V_gender"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/open_sans"
             android:layout_marginTop="5dp"
             android:text="@string/gender"
             android:textColor="#000"
             android:textSize="18sp" />
 
-        <Spinner
+        <TextView
             android:id="@+id/v_edit_gender"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:fontFamily="@font/open_sans"
+            android:layout_height="match_parent"
             android:layout_marginStart="90dp"
-            android:background="@drawable/border2"
-            android:entries="@array/gender_sm"
-            android:textColor="#E8E3E3" />
+            android:background="@drawable/social_rouded_input"
+            android:text="@string/gender"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
 
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/linearlayout_4"
@@ -143,30 +198,34 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/linearlayout_3"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:textAlignment="center">
 
 
         <TextView
-            android:id="@+id/v_district"
+            android:id="@+id/V_district"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans"
+            android:layout_marginStart="50dp"
             android:layout_marginTop="5dp"
             android:text="@string/district"
             android:textColor="#000"
             android:textSize="18sp" />
 
-        <Spinner
-            android:id="@+id/v_edit_district"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="90dp"
-            android:background="@drawable/border2"
-            android:entries="@array/districts_sm"
-            android:textColor="#E8E3E3" />
+        <TextView
+            android:id="@+id/v_edit_destrict"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/open_sans"
+            android:layout_marginStart="93dp"
+            android:text="@string/district"
+            android:textAlignment="center"
+            android:background="@drawable/social_rouded_input"
+            android:textSize="18sp" />
+
 
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/linearlayout_5"
@@ -174,47 +233,32 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/linearlayout_4"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:textAlignment="center">
 
 
         <TextView
-            android:id="@+id/v_email"
+            android:id="@+id/V_email"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
             android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans"
             android:text="@string/email"
             android:textColor="#000"
             android:textSize="18sp" />
 
         <TextView
             android:id="@+id/v_edit_email"
-            android:layout_width="144dp"
+            android:layout_width="140dp"
             android:layout_height="match_parent"
             android:layout_marginStart="105dp"
-            android:text="@string/Email"
+            android:background="@drawable/social_rouded_input"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/email"
+            android:textAlignment="center"
             android:textSize="18sp" />
 
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearlayout_logout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="9dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-
-        <ImageView
-            android:id="@+id/v_profile_logout"
-            android:layout_width="92dp"
-
-            android:layout_height="36dp"
-            android:contentDescription="@string/todo"
-            android:src="@drawable/logout" />
 
     </LinearLayout>
 
@@ -224,18 +268,106 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/linearlayout_5"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:textAlignment="center">
 
 
-        <Button
+        <TextView
+            android:id="@+id/V_password"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="150dp"
-            android:background="@drawable/border2"
-            android:text="@string/edit"
-            android:textColor="#FAFAFA" />
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/password"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/v_edit_Password"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="72dp"
+            android:background="@drawable/social_rouded_input"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/password"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
 
     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout_6"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+
+        <TextView
+            android:id="@+id/V_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/dob"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/v_edit_dob"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/social_rouded_input"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/dob"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayout_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout_7"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/pr_edit_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/netblue"
+            android:gravity="center"
+            android:text="@string/edit_btn"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/pr_delete_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/warningred"
+            android:gravity="center"
+            android:text="@string/delete_btn"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+
 
 
 </RelativeLayout>

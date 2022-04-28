@@ -39,6 +39,22 @@
     <string name="todo">TODO</string>
     <string name="email">Email</string>
     <string name="android_developer">Android developer</string>
+    <string name="pr_district">distrivt_pr</string>
+    <string name="pr_email">email_pr</string>
+    <string name="pr_buttonupdate">button_update</string>
+    <string name="create_job_title">Create Job</string>
+    <string name="create_btn">Create</string>
+    <string name="district_view">District</string>
+    <string name="Create_btn">Create</string>
+    <string name="edit_btn">Edit</string>
+    <string name="delete_btn">delete</string>
+    <string name="submit_btn">update</string>
+    <string name="request_btn">request</string>
+    <string name="age_req">Age</string>
+    <string name="gender_req">Gender</string>
+    <string name="password">password</string>
+    <string name="Password">PAssword</string>
+    <string name="dob">Date_of_birth</string>
     <string-array name="districts_sm">
         <item> Select District</item>
         <item> Ampara</item>
