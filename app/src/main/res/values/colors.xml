@@ -17,4 +17,14 @@
     <color name="yellow">#FFFF00</color>
     <color name="orange">#FF7F00</color>
     <color name="red">#FF0000</color>
+    <color name="navyblue">#000080</color>
+    <color name="linmblack">#1B1A17</color>
+    <color name="netblue">#11468F</color>
+    <color name="warningred">#FF0000</color>
+    <color name="updatebtn"> #f0ad4e</color>
+    <color name="white"> #ffffff</color>
+
+
+
+
 </resources>
