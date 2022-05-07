@@ -14,19 +14,23 @@
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_edit_jobreq.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_homepage_new.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_my_requested_jobs.xml" value="0.2" />
+        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_navigation_bar.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_new_req_job_homepage.xml" value="0.2" />
-        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_new_save_req_jobs.xml" value="0.1" />
+        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_new_save_req_jobs.xml" value="0.2" />
+        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_new_saved_jobs.xml" value="0.2" />
+        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_requestjob.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_userlogin.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_view_job.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_view_req_job.xml" value="0.22" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_viewjob_m.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/homepage_item.xml" value="0.2" />
-        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/listing_card.xml" value="0.2" />
+        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/listing_card.xml" value="0.33" />
+        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/register_user.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/reqjob_item.xml" value="0.15" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/save_reqjob_item.xml" value="0.1" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/savejobs_item.xml" value="0.1" />
-        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/toolbar1.xml" value="0.1" />
+        <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/toolbar1.xml" value="0.18" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/mipmap-anydpi-v26/logo_launcher.xml" value="0.1445" />
         <entry key="..\:/top/app/src/main/res/layout/activity_create_job.xml" value="0.20416666666666666" />
         <entry key="..\:/top/app/src/main/res/layout/activity_edit_job.xml" value="0.20416666666666666" />
