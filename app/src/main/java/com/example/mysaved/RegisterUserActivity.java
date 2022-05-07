@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -51,7 +52,7 @@ public class RegisterUserActivity extends AppCompatActivity {
         district_spinner = (Spinner) findViewById(R.id.district_spinner);
         gender_spinner = (Spinner) findViewById(R.id.gender_spinner);
         accountCreate = findViewById(R.id.btn_acCeate);
-
+        TextView signup1=findViewById(R.id.login1);
         //get current instance of firebase authentication
         fAuth = FirebaseAuth.getInstance();
 
@@ -66,11 +67,18 @@ public class RegisterUserActivity extends AppCompatActivity {
 //        }
 
 
-
+        signup1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), UserloginActivity.class));
+                overridePendingTransition(R.anim.animation_enter, R.anim.animation_leave);
+            }
+        });
 
         // assigning the function when the user clicks the accountCreate button
         accountCreate.setOnClickListener(new View.OnClickListener() {
             @Override
+
             public void onClick(View view) {
                 //code in here is executed once clicked
 
