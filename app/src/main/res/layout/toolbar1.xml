@@ -19,11 +19,13 @@
 
         <ImageView
             android:id="@+id/logo_icon"
-            android:layout_width="100dp"
-            android:layout_height="35dp"
+            android:layout_width="170dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="131dp"
-            android:layout_marginEnd="39dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="9dp"
             android:layout_toEndOf="@+id/back_icon"
             android:scaleType="centerCrop"
             android:src="@drawable/nlogo" />
