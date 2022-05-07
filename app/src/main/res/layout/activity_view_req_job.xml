@@ -11,6 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@color/white"
         android:orientation="horizontal">
 
@@ -229,6 +231,7 @@
                 android:layout_width="323dp"
                 android:layout_height="101dp"
                 android:padding="15dp"
+                android:fontFamily="@font/open_sans"
                 android:scrollbars="vertical"
                 android:textAlignment="center"
                 android:fontFamily="@font/open_sans"
@@ -329,7 +332,7 @@
                 android:text="Edit"
                 android:fontFamily="@font/open_sans"
                 app:backgroundTint="#001468"
-                app:cornerRadius="50dp"
+                app:cornerRadius="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/btn_call_jvr"
                 app:layout_constraintHorizontal_bias="0.571"
