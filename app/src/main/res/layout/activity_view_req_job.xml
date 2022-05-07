@@ -22,9 +22,9 @@
         app:srcCompat="@drawable/back" />
 
     <ImageView
-        android:id="@+id/btn_nav_login"
+        android:id="@+id/imageView18"
         android:layout_width="wrap_content"
-        android:layout_height="33dp"
+        android:layout_height="53dp"
         android:layout_weight="1"
         app:srcCompat="@drawable/nlogo" />
 
@@ -63,7 +63,7 @@
                 android:id="@+id/tv_req_job_title"
                 android:layout_width="301dp"
                 android:layout_height="34dp"
-                android:fontFamily="@font/open_sans"
+                android:fontFamily="@font/segoe_bold"
                 android:paddingStart="15dp"
                 android:paddingLeft="10dp"
                 android:text="@string/tv_requested_jobtitle"
@@ -93,7 +93,7 @@
                 android:id="@+id/textView10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/open_sans"
+                android:fontFamily="@font/segoe_bold"
                 android:text="Name"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -104,9 +104,9 @@
 
             <TextView
                 android:id="@+id/textView11"
-                android:layout_width="24dp"
-                android:layout_height="11dp"
-                android:fontFamily="@font/open_sans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_bold"
                 android:text="Age"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -115,13 +115,13 @@
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/textView10"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="0.0"/>
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/open_sans"
+                android:fontFamily="@font/segoe_bold"
                 android:text="Gender"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -136,7 +136,7 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
                 app:layout_constraintEnd_toStartOf="@+id/textView7"
-                app:layout_constraintHorizontal_bias="0.456"
+                app:layout_constraintHorizontal_bias="0.451"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
@@ -204,7 +204,7 @@
                 android:id="@+id/textView13"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/open_sans"
+                android:fontFamily="@font/segoe_bold"
                 android:text="Description"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -241,11 +241,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
-                app:backgroundTint="#041d3a"
                 android:layout_marginBottom="32dp"
                 android:background="@drawable/button_blue_bo"
                 android:text="@string/btn_sendmail_reqjob"
-                android:textColor="@color/white"
+                android:textColor="@color/modern_blue"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/btn_call_jvr"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -253,14 +252,13 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btn_call_jvr"
-                app:backgroundTint="#041d3a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="28dp"
                 android:layout_marginBottom="32dp"
                 android:background="@drawable/button_blue_bo"
                 android:text="@string/btn_call_reqjob"
-                android:textColor="@color/white"
+                android:textColor="@color/modern_blue"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
@@ -280,7 +278,7 @@
                 android:layout_height="17dp"
                 android:layout_marginStart="48dp"
                 android:layout_marginBottom="28dp"
-                android:fontFamily="@font/open_sans"
+                android:fontFamily="@font/segoe_bold"
                 android:text="Email  :"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toTopOf="@+id/tv_emailR"
@@ -302,7 +300,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="48dp"
                 android:layout_marginBottom="15dp"
-                android:fontFamily="@font/open_sans"
+                android:fontFamily="@font/segoe_bold"
                 android:text="Phone"
                 android:textColor="@color/black"
                 app:layout_constraintBottom_toTopOf="@+id/tv_emailR"
@@ -314,8 +312,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="32dp"
                 android:text="Edit"
-                app:backgroundTint="#041d3a"
-                app:cornerRadius="5dp"
+                app:backgroundTint="#477EEC"
+                app:cornerRadius="50dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/btn_call_jvr"
                 app:layout_constraintHorizontal_bias="0.571"
@@ -324,6 +322,6 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-    </LinearLayout>
+</LinearLayout>
 
 </LinearLayout>
