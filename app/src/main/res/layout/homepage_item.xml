@@ -52,9 +52,10 @@
                 android:id="@+id/d_tv_jobname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="@string/jobtitle"
+                android:hint="Job Title"
                 android:paddingStart="5dp"
-                android:textColor="@color/black"
+                android:fontFamily="@font/open_sans"
+                android:textColor="#001468"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -63,6 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/d_tv_jobtype"
+                android:fontFamily="@font/open_sans"
                 android:paddingStart="5dp"
                 android:textColor="@android:color/darker_gray"
                 android:textSize="16sp" />
@@ -73,13 +75,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:button="@drawable/d_checkbox"
-                app:buttonTint="#00BCD4" />
+                app:buttonTint="#001468" />
 
             <TextView
                 android:id="@+id/d_tv_joblocation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
+                android:fontFamily="@font/open_sans"
                 android:hint="@string/d_tv_joblocation"
                 android:paddingRight="50dp"
                 android:textColor="@color/modern_blue"

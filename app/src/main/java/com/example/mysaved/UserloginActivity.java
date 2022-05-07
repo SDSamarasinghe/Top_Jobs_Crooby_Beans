@@ -42,17 +42,17 @@ public class UserloginActivity extends AppCompatActivity {
         email = findViewById(R.id.et_log_email);
         password = findViewById(R.id.et_log_password);
         login = findViewById(R.id.btn_login);
-        signup = findViewById(R.id.btn_sign_up);
-        fgt_password = findViewById(R.id.tv_fgt_password);
-
-        login_back_btn = findViewById(R.id.login_back_btn);
+        //signup = findViewById(R.id.btn_sign_up);
+       TextView  fgt_password = findViewById(R.id.tv_fgt_password);
+        TextView signup1=findViewById(R.id.signup1);
+        TextView login_back_btn = findViewById(R.id.resign);
 
         //get current instance of firebase authentication
         fAuth = FirebaseAuth.getInstance();
 
 
         // if the user is not registered
-        signup.setOnClickListener(new View.OnClickListener() {
+        signup1.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
             startActivity(new Intent(getApplicationContext(), RegisterUserActivity.class));
