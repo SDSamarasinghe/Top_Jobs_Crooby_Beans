@@ -227,10 +227,10 @@
         <ImageView
             android:id="@+id/imageView8"
             android:layout_width="60dp"
-            android:layout_height="50dp"
+            android:layout_height="45dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/save3"
-            tools:srcCompat="@drawable/save3" />
+            app:srcCompat="@drawable/savedi"
+            tools:srcCompat="@drawable/savedi" />
 
         <TextView
             android:id="@+id/tv_nav_savedreqjobs"
