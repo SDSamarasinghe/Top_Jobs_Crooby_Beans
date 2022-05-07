@@ -28,11 +28,11 @@ import java.util.Locale;
 public class EditJob extends AppCompatActivity {
     EditText et_companyed,et_titleed,et_salaryed,et_descriptioned,et_emailed,et_phoneed;
     Spinner  et_jobtypeed,et_dised;
-    Button btn_edit;
+    Button btn_edit,btn_deletejob;
     String emailPattern = "[a-zA-Z0-9._-]+@[a-z0-9]+\\.+[a-z]+";
     String phonePattern = "[0-9]{10}";
     DatabaseReference databaseReference;
-    ImageView imageView_deletejob, imageView155;
+    ImageView imageView155;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +66,7 @@ public class EditJob extends AppCompatActivity {
         et_phoneed=findViewById(R.id.et_phoneed);
         et_jobtypeed=(Spinner)findViewById(R.id.et_jobtypeed);
         et_dised=(Spinner)findViewById(R.id.et_dised);
-        imageView_deletejob=findViewById(R.id.imageView_deletejob);
+        btn_deletejob=findViewById(R.id.imageView_deletejob);
         imageView155 = findViewById(R.id.imageView155);
 
 
@@ -182,7 +182,7 @@ public class EditJob extends AppCompatActivity {
                 }
             });
 
-        imageView_deletejob.setOnClickListener(new View.OnClickListener() {
+        btn_deletejob.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder builder=new AlertDialog.Builder(EditJob.this);
