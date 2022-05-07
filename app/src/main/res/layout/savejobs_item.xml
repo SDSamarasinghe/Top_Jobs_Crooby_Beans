@@ -7,7 +7,7 @@
     app:cardBackgroundColor="@android:color/white"
     app:cardCornerRadius="10dp"
     android:layout_margin="5dp">
-    
+
     <LinearLayout
         android:id="@+id/d_save_card"
         android:clickable="true"
@@ -16,11 +16,11 @@
         android:orientation="horizontal"
         android:padding="10dp"
         android:focusable="true">
-        
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            
+
             <androidx.cardview.widget.CardView
                 android:layout_width="70dp"
                 android:layout_height="70dp"
@@ -61,6 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/tv_jobtype_vjob"
+                android:fontFamily="@font/open_sans"
                 android:paddingStart="5dp"
                 android:textColor="@android:color/darker_gray"
                 android:textSize="16sp" />
@@ -79,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:hint="@string/d_tv_joblocation"
+                android:fontFamily="@font/open_sans"
                 android:paddingRight="50dp"
                 android:textColor="@color/modern_blue"
                 android:textSize="16sp" />
