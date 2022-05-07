@@ -255,12 +255,10 @@
                 android:layout_marginStart="28dp"
                 android:layout_marginBottom="32dp"
                 android:background="#001468"
-
                 android:text="@string/btn_sendmail_reqjob"
                 app:cornerRadius="5dp"
                 android:fontFamily="@font/open_sans"
                 android:textColor="@color/white"
-                app:cornerRadius="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/btn_call_jvr"
                 app:layout_constraintHorizontal_bias="0.0"
