@@ -52,11 +52,11 @@
                 android:id="@+id/d_tv_jobname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Job Title"
                 android:paddingStart="5dp"
                 android:fontFamily="@font/open_sans"
                 android:textColor="#001468"
                 android:textSize="20sp"
+                android:hint="Job Title"
                 android:textStyle="bold" />
 
             <TextView
@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:fontFamily="@font/open_sans"
-                android:hint="@string/d_tv_joblocation"
+                android:hint="Location"
                 android:paddingRight="50dp"
                 android:textColor="@color/modern_blue"
                 android:textColorHint="#3F51B5"
