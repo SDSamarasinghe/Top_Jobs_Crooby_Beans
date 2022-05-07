@@ -11,6 +11,14 @@
         <entry key="..\:/And/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/And/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_my_saved_jobs.xml" value="0.20416666666666666" />
         <entry key="..\:/And/Top_Jobs_Crooby_Beans/app/src/main/res/layout/activity_request_ajob_page.xml" value="0.5" />
+
+        <entry key="..\:/LAst MAd/app/src/main/res/layout/activity_create_job.xml" value="0.25" />
+        <entry key="..\:/LAst MAd/app/src/main/res/layout/activity_my_job_listings.xml" value="0.25" />
+        <entry key="..\:/LAst MAd/app/src/main/res/layout/activity_navigation_bar.xml" value="0.25" />
+        <entry key="..\:/LAst MAd/app/src/main/res/layout/activity_new_save_req_jobs.xml" value="0.25" />
+        <entry key="..\:/LAst MAd/app/src/main/res/layout/nav_header_sample.xml" value="0.25" />
+        <entry key="..\:/LAst MAd/app/src/main/res/layout/toolbar1.xml" value="0.25" />
+
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_edit_jobreq.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_homepage_new.xml" value="0.2" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/activity_my_requested_jobs.xml" value="0.2" />
@@ -28,6 +36,7 @@
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/savejobs_item.xml" value="0.1" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/layout/toolbar1.xml" value="0.1" />
         <entry key="..\:/Users/mihis/OneDrive/Desktop/TopJobs/app/src/main/res/mipmap-anydpi-v26/logo_launcher.xml" value="0.1445" />
+
         <entry key="..\:/top/app/src/main/res/layout/activity_create_job.xml" value="0.20416666666666666" />
         <entry key="..\:/top/app/src/main/res/layout/activity_edit_job.xml" value="0.20416666666666666" />
         <entry key="..\:/top/app/src/main/res/layout/activity_edit_profile.xml" value="0.20416666666666666" />
