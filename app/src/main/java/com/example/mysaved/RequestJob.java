@@ -79,7 +79,7 @@ public class RequestJob extends AppCompatActivity {
         phone = findViewById(R.id.et_phone_noR);
         spinerr_gen = (Spinner)findViewById(R.id.spinner_genderR);
         creatr_req_btn = findViewById(R.id.btn_createR);
-        back2_btn = findViewById(R.id.backimgR);
+
         insertimg = findViewById(R.id.image_add_imageR);
         progressBar2 = findViewById(R.id.progressBarR);
         progressBar2.setVisibility(View.INVISIBLE);
