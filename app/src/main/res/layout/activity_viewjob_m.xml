@@ -339,6 +339,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="16dp"
                             android:text="Edit"
+                            android:fontFamily="@font/open_sans"
                             app:backgroundTint="#001468"
                             app:cornerRadius="8dp"
                             app:layout_constraintBottom_toBottomOf="parent"

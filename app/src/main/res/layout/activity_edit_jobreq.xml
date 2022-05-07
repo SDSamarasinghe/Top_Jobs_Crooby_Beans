@@ -197,6 +197,7 @@
         android:clickable="true"
         android:focusable="true"
         android:text="@string/btn_editjob"
+        android:fontFamily="@font/open_sans"
         app:backgroundTint="#001468"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
