@@ -269,6 +269,7 @@
                 android:layout_marginBottom="32dp"
                 android:background="#001468"
                 android:text="@string/btn_call_reqjob"
+                android:fontFamily="@font/open_sans"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
@@ -326,6 +327,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="32dp"
                 android:text="Edit"
+                android:fontFamily="@font/open_sans"
                 app:backgroundTint="#001468"
                 app:cornerRadius="50dp"
                 app:layout_constraintBottom_toBottomOf="parent"
