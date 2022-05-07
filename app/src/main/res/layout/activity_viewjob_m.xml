@@ -12,12 +12,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="41dp"
+            android:layout_marginBottom="20dp"
             android:background="@color/white"
             android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/imageView22"
                     android:layout_width="36dp"
+                    android:layout_marginTop="9dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/back" />
@@ -25,7 +27,8 @@
                 <ImageView
                     android:id="@+id/imageView23"
                     android:layout_width="wrap_content"
-                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="34dp"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/nlogo" />
         </LinearLayout>
@@ -80,7 +83,7 @@
                             android:layout_width="71dp"
                             android:layout_height="wrap_content"
                             android:text="Matara"
-                            android:textColor="@color/modern_blue"
+                            android:textColor="@color/back_background"
                             android:textSize="14sp"
                             app:layout_constraintBaseline_toBaselineOf="@+id/jobTitle_tv"
                             app:layout_constraintEnd_toEndOf="parent"
@@ -148,6 +151,7 @@
                             android:id="@+id/jobType_tv_jobView"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/open_sans"
                             android:text="Virtusa"
                             app:layout_constraintBaseline_toBaselineOf="@+id/jobCompany_tv_jobView"
                             app:layout_constraintEnd_toStartOf="@+id/jobCompany_tv_jobView"
@@ -159,8 +163,9 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
+                            android:fontFamily="@font/open_sans"
                             android:paddingLeft="5dp"
-                            android:text="Heloloooo"
+                            android:text="Company1"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toStartOf="@+id/jobSalary_tv_jobView"
                             app:layout_constraintHorizontal_bias="0.5"
@@ -172,6 +177,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="TextView"
+                            android:fontFamily="@font/open_sans"
                             app:layout_constraintBaseline_toBaselineOf="@+id/jobCompany_tv_jobView"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.5"
@@ -199,8 +205,10 @@
                         <TextView
                             android:id="@+id/jobDaysAgo_tv_jobView"
                             android:layout_width="25dp"
+                            android:layout_marginStart="-490dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1"
+                            android:fontFamily="@font/open_sans"
                             android:text="90 Days Ago" />
                 </LinearLayout>
 
@@ -234,6 +242,7 @@
                             android:layout_width="323dp"
                             android:layout_height="101dp"
                             android:padding="15dp"
+                            android:fontFamily="@font/open_sans"
                             android:scrollbars="vertical"
                             android:text="TextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextViewTextView"
                             android:textAlignment="center"
@@ -258,18 +267,20 @@
                             android:layout_marginBottom="20dp"
                             android:background="#001468"
                             android:text="@string/btn_email_jv"
+                            android:fontFamily="@font/open_sans"
                             android:textColor="@color/white"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent" />
 
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/btn_call_jv4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="304dp"
-                            android:layout_marginBottom="16dp"
+                            android:layout_width="84dp"
+                            android:layout_height="44dp"
+                            android:layout_marginStart="296dp"
+                            android:layout_marginBottom="20dp"
                             android:background="#001468"
                             android:text="@string/btn_call_jv"
+                            android:fontFamily="@font/open_sans"
                             android:textColor="@color/white"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent" />
@@ -279,6 +290,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="kagdhrfg@gmail.com"
+                            android:fontFamily="@font/open_sans"
                             app:layout_constraintBaseline_toBaselineOf="@+id/textView47"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.083"
@@ -303,6 +315,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="TextView"
+                            android:fontFamily="@font/open_sans"
                             app:layout_constraintBaseline_toBaselineOf="@+id/textView49"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHorizontal_bias="0.111"
@@ -327,7 +340,7 @@
                             android:layout_marginBottom="16dp"
                             android:text="Edit"
                             app:backgroundTint="#001468"
-                            app:cornerRadius="58dp"
+                            app:cornerRadius="8dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toStartOf="@+id/btn_call_jv4"
                             app:layout_constraintHorizontal_bias="0.516"
@@ -342,6 +355,7 @@
                             android:layout_marginEnd="56dp"
                             android:layout_marginBottom="42dp"
                             android:text="TextView"
+                            android:fontFamily="@font/open_sans"
                             app:layout_constraintBottom_toTopOf="@+id/btn_call_jv4"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toEndOf="@+id/jobEmail_tv_jobView"

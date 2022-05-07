@@ -11,6 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@color/white"
         android:orientation="horizontal">
 
@@ -97,6 +99,7 @@
                 android:fontFamily="@font/open_sans"
                 android:text="Name"
                 android:textStyle="bold"
+
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
@@ -138,6 +141,7 @@
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
                 app:layout_constraintEnd_toStartOf="@+id/textView7"
                 app:layout_constraintHorizontal_bias="0.451"
@@ -150,6 +154,7 @@
                 android:layout_marginStart="90dp"
                 android:layout_marginTop="20dp"
                 android:paddingLeft="5dp"
+                android:fontFamily="@font/open_sans"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/textView8"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -160,6 +165,7 @@
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -225,6 +231,7 @@
                 android:layout_width="323dp"
                 android:layout_height="101dp"
                 android:padding="15dp"
+                android:fontFamily="@font/open_sans"
                 android:scrollbars="vertical"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -249,6 +256,11 @@
                 android:layout_marginBottom="32dp"
                 android:background="#001468"
                 android:text="@string/btn_sendmail_reqjob"
+
+                app:cornerRadius="5dp"
+
+                android:fontFamily="@font/open_sans"
+
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/btn_call_jvr"
@@ -262,7 +274,9 @@
                 android:layout_marginEnd="28dp"
                 android:layout_marginBottom="32dp"
                 android:background="#001468"
+                app:cornerRadius="5dp"
                 android:text="@string/btn_call_reqjob"
+                android:fontFamily="@font/open_sans"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
@@ -294,6 +308,7 @@
                 android:id="@+id/tv_phoneR"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView17"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.111"
@@ -319,8 +334,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="32dp"
                 android:text="Edit"
+                android:fontFamily="@font/open_sans"
                 app:backgroundTint="#001468"
-                app:cornerRadius="50dp"
+                app:cornerRadius="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/btn_call_jvr"
                 app:layout_constraintHorizontal_bias="0.571"

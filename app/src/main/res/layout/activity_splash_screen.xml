@@ -12,13 +12,11 @@
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:layout_marginTop="80dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.182"
-        app:srcCompat="@drawable/nlogo" />
+        app:srcCompat="@drawable/intlogo" />
 
     <TextView
         android:id="@+id/textView4"
@@ -41,16 +39,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView16"
         app:layout_constraintVertical_bias="0.791" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="119dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="268dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView16"
-        app:srcCompat="@drawable/splash1" />
 
     <TextView
         android:id="@+id/textView3"
