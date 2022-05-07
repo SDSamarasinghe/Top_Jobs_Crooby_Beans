@@ -45,7 +45,7 @@ public class UserloginActivity extends AppCompatActivity {
         //signup = findViewById(R.id.btn_sign_up);
        TextView  fgt_password = findViewById(R.id.tv_fgt_password);
         TextView signup1=findViewById(R.id.signup1);
-        TextView login_back_btn = findViewById(R.id.resign);
+        login_back_btn = findViewById(R.id.resign);
 
         //get current instance of firebase authentication
         fAuth = FirebaseAuth.getInstance();
