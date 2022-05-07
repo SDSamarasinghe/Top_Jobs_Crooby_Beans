@@ -40,69 +40,73 @@
 
         </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/d_tv_reqjobname"
-                    android:hint="@string/jobtitle"
-                    android:paddingStart="15dp"
-                    android:textColor="@color/black"
-                    android:textSize="20sp"
-                    android:textStyle="bold"/>
+                android:id="@+id/d_tv_reqjobname"
+                android:hint="Job Title"
+                android:fontFamily="@font/open_sans"
+                android:paddingStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/d_tv_reqjobgender"
+                android:hint="@string/d_tv_reqjobgender2"
+                android:fontFamily="@font/open_sans"
+                android:paddingStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/d_tv_reqjobgender"
-                    android:hint="@string/d_tv_reqjobgender2"
+                    android:id="@+id/d_tv_reqjobage"
+                    android:hint="@string/d_tv_reqjobage2"
                     android:paddingStart="15dp"
                     android:textColor="@color/black"
-                    android:textSize="20sp"/>
+                    android:textColorHint="#3F51B5"
+                    android:textSize="16sp"/>
 
-                <LinearLayout
+                <TextView
+                    android:id="@+id/d_yearsold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/d_tv_reqjobage"
-                        android:hint="@string/d_tv_reqjobage2"
-                        android:paddingStart="15dp"
-                        android:textColor="@color/black"
-                        android:textColorHint="#3F51B5"
-                        android:textSize="16sp"/>
-
-                    <TextView
-                        android:id="@+id/d_yearsold"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/d_yearsold"
-                        android:paddingStart="10dp"
-                        android:textColor="@color/black"
-                        android:textSize="16sp" />
-
-
-                </LinearLayout>
-
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/d_img_reqbookmark"
-                    android:layout_gravity="right"
-                    android:button="@drawable/d_checkbox"
-                    android:buttonTint="#00BCD4"/>
-
+                    android:text="@string/d_yearsold"
+                    android:fontFamily="@font/open_sans"
+                    android:paddingStart="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
 
 
             </LinearLayout>
 
+
+            <CheckBox
+                android:id="@+id/d_img_reqbookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:button="@drawable/d_checkbox"
+                android:buttonTint="#00BCD4"
+                app:buttonTint="#001468" />
+
+
+
         </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.cardview.widget.CardView>
