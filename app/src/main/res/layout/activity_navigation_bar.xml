@@ -9,7 +9,9 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="130dp">
+        android:layout_height="130dp"
+        android:background="#074975">
+
 
         <Button
             android:id="@+id/btn_nav_logout"
@@ -35,7 +37,7 @@
             android:onClick="login"
             android:text="@string/btn_nav_login"
             android:textAllCaps="false"
-            android:textColor="@color/nav_login"
+            android:textColor="@color/white"
             android:visibility="visible"
             app:backgroundTint="@color/btn_nav_login" />
 
@@ -43,9 +45,11 @@
             android:id="@+id/imageView13"
             android:layout_width="173dp"
             android:layout_height="112dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="170dp"
             android:layout_marginLeft="200dp"
             android:layout_marginTop="10dp"
-            app:srcCompat="@drawable/js_png" />
+            app:srcCompat="@drawable/newlogomad" />
 
     </RelativeLayout>
 
@@ -66,23 +70,23 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/home__1_"
-            tools:srcCompat="@drawable/home__1_" />
+            app:srcCompat="@drawable/homelast"
+            tools:srcCompat="@drawable/homelast" />
 
         <TextView
             android:id="@+id/tv_nav_home"
             android:layout_width="289dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/segoe_bold"
+            android:fontFamily="sans-serif-black"
             android:padding="12dp"
             android:text="@string/tv_nav_home"
             android:textColor="@color/nav"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="normal" />
 
     </LinearLayout>
 
@@ -97,18 +101,18 @@
 
         <ImageView
             android:id="@+id/imageView9"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/_05581_200"
-            tools:srcCompat="@drawable/_05581_200" />
+            app:srcCompat="@drawable/findyouremployes"
+            tools:srcCompat="@drawable/findyouremployes" />
 
         <TextView
             android:id="@+id/tv_nav_myjobs"
             android:layout_width="289dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/segoe_bold"
+            android:fontFamily="sans-serif-black"
             android:padding="12dp"
             android:text="@string/tv_nav_myjobs"
             android:textColor="@color/nav"
@@ -128,18 +132,18 @@
 
         <ImageView
             android:id="@+id/imageView10"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/bookmark__1_"
-            tools:srcCompat="@drawable/bookmark__1_" />
+            app:srcCompat="@drawable/save3"
+            tools:srcCompat="@drawable/save3" />
 
         <TextView
             android:id="@+id/tv_nav_savedjobs"
             android:layout_width="289dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/segoe_bold"
+            android:fontFamily="sans-serif-black"
             android:padding="12dp"
             android:text="@string/tv_nav_savedjobs"
             android:textColor="@color/nav"
@@ -159,18 +163,18 @@
 
         <ImageView
             android:id="@+id/imageView12"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/job"
-            tools:srcCompat="@drawable/job" />
+            app:srcCompat="@drawable/suitacse"
+            tools:srcCompat="@drawable/suitacse" />
 
         <TextView
             android:id="@+id/tv_nav_requestedjobs"
             android:layout_width="289dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/segoe_bold"
+            android:fontFamily="sans-serif-black"
             android:padding="12dp"
             android:text="@string/tv_nav_requestedjobs"
             android:textColor="@color/nav"
@@ -190,18 +194,18 @@
 
         <ImageView
             android:id="@+id/imageView11"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/need"
-            tools:srcCompat="@drawable/need" />
+            app:srcCompat="@drawable/peaple"
+            tools:srcCompat="@drawable/peaple" />
 
         <TextView
             android:id="@+id/tv_nav_myreqjobs"
             android:layout_width="289dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/segoe_bold"
+            android:fontFamily="sans-serif-black"
             android:padding="12dp"
             android:text="@string/tv_nav_myreqjobs"
             android:textColor="@color/nav"
@@ -221,18 +225,18 @@
 
         <ImageView
             android:id="@+id/imageView8"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            app:srcCompat="@drawable/bookmark__1_"
-            tools:srcCompat="@drawable/bookmark__1_" />
+            app:srcCompat="@drawable/save3"
+            tools:srcCompat="@drawable/save3" />
 
         <TextView
             android:id="@+id/tv_nav_savedreqjobs"
             android:layout_width="289dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:fontFamily="@font/segoe_bold"
+            android:fontFamily="sans-serif-black"
             android:padding="12dp"
             android:text="@string/tv_nav_savedreqjobs"
             android:textColor="@color/nav"
@@ -240,6 +244,7 @@
             android:textStyle="bold" />
 
     </LinearLayout>
+
 
 
 
@@ -253,8 +258,9 @@
 
         android:onClick="navClickProfile"
         android:id="@+id/nav_profile"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
         android:orientation="horizontal"
         android:background="@drawable/hover"
         android:gravity="center_vertical">
@@ -262,22 +268,22 @@
         <ImageView
 
             android:id="@+id/image_navigation_bar"
-            android:layout_width="50dp"
+            android:layout_width="60dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
-            android:src="@drawable/round_account_circle_20"
-            tools:srcCompat="@drawable/round_account_circle_20" />
+            android:src="@drawable/profilenew"
+            tools:srcCompat="@drawable/profilenew" />
 
         <TextView
             android:id="@+id/tv_nav_profile"
-            android:layout_width="289dp"
+            android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:fontFamily="@font/segoe_bold"
             android:padding="12dp"
             android:text="@string/tv_nav_profile"
             android:textColor="@color/nav"
-            android:textSize="25sp"
+            android:textSize="22sp"
             android:textStyle="bold" />
     </LinearLayout>
 
