@@ -71,7 +71,7 @@
                 android:hint="@string/tv_mjl1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 android:textColor="#001468"
-                android:textColorHint=""
+                android:textColorHint="#001468"
                 android:textSize="28sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toStartOf="@+id/btn_newreq"
