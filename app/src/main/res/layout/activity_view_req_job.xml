@@ -256,11 +256,8 @@
                 android:layout_marginBottom="32dp"
                 android:background="#001468"
                 android:text="@string/btn_sendmail_reqjob"
-
                 app:cornerRadius="5dp"
-
                 android:fontFamily="@font/open_sans"
-
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/btn_call_jvr"
@@ -286,9 +283,10 @@
                 android:id="@+id/tv_emailR"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.265"
+                app:layout_constraintHorizontal_bias="0.111"
                 app:layout_constraintStart_toEndOf="@+id/textView15" />
 
             <TextView
