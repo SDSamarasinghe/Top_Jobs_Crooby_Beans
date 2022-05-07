@@ -13,16 +13,16 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-    <include layout="@layout/toolbar1"
-        android:layout_width="414dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <include layout="@layout/toolbar1"
+            android:layout_width="414dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -41,26 +41,26 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/include" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/d_recycle"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_margin="3dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:paddingTop="125dp"
-        tools:layout_editor_absoluteX="3dp"
-        tools:layout_editor_absoluteY="74dp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/d_recycle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:paddingTop="125dp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="74dp" />
 
 
-    <pl.droidsonroids.gif.GifImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="16dp"
-        android:src="@drawable/s2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include"/>
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/s2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include"/>
 
             <TextView
                 android:id="@+id/d_findjobs"
@@ -69,6 +69,7 @@
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="12dp"
                 android:text="@string/d_findjobs"
+                android:fontFamily="@font/open_sans"
                 android:textColor="@color/black"
                 android:textSize="29sp"
                 android:textStyle="bold"
@@ -86,19 +87,19 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/d_findjobs" />
 
-    <ProgressBar
-        android:id="@+id/d_progressBar4"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/d_recycle"
-        app:layout_constraintEnd_toStartOf="@+id/d_recycle"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/d_recycle"
-        app:layout_constraintTop_toBottomOf="@+id/d_recycle" />
+            <ProgressBar
+                android:id="@+id/d_progressBar4"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/d_recycle"
+                app:layout_constraintEnd_toStartOf="@+id/d_recycle"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/d_recycle"
+                app:layout_constraintTop_toBottomOf="@+id/d_recycle" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
 
