@@ -286,9 +286,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="284dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/button_blue_bo"
+        android:background="#001468"
         android:text="@string/btn_call_jv"
-        android:textColor="@color/modern_blue"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -298,9 +298,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/button_blue_bo"
+        android:background="#001468"
         android:text="@string/btn_email_jv"
-        android:textColor="@color/modern_blue"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -322,6 +322,8 @@
         android:layout_marginStart="36dp"
         android:layout_marginBottom="16dp"
         android:text="Edit"
+        android:textColor="@color/white"
+        app:backgroundTint="#001468"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btn_call_jv"
         app:layout_constraintHorizontal_bias="0.086"
