@@ -130,7 +130,7 @@
     </string-array>
 
     <string-array name="genderR">
-        <item>Enter Gender</item>
+        <item> Gender</item>
         <item> Male</item>
         <item> Female</item>
     </string-array>
@@ -214,7 +214,7 @@
     </string-array>
 
 
-    <!--    Pankaja's Strings-->
+    <!--    Tharindu's Strings-->
 
     <string name="tv_sign_in">Sign In</string>
     <string name="et_log_email">Email</string>
@@ -281,7 +281,6 @@
 
     <string name="d_findjobs">Find Your Jobs</string>
     <string name="d_findemployees">Find Your Employees</string>
-
 
 
     <string-array name="districts_vp">
@@ -388,6 +387,16 @@
 
     <string name="repassword">reenter password</string>
     <string name="phone">phone</string>
+    <string name="salayheader">My Salary</string>
+    <string name="BasicSalary">Basic Salary</string>
+    <string name="bonusrate">"Bonus Rate "</string>
+    <string name="bonus">Bonus rate</string>
+    <string name="netsalary">Net Salary</string>
+    <string name="clac">Enter</string>
+    <string name="signb">Sign in</string>
+    <string name="edit_jb">Edit Jobs</string>
+    <string name="btn_deletej">"Delete "</string>
+    <string name="deletejb">Delete</string>
 
 
 </resources>
