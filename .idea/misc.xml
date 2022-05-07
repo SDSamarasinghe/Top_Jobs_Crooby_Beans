@@ -31,9 +31,10 @@
         <entry key="..\:/JobSeeker-master/app/src/main/res/drawable/ic_baseline_menu.xml" value="0.178" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1165" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/drawable/location_background.xml" value="0.241" />
+        <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_create_job.xml" value="0.20416666666666666" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_editprofile.xml" value="0.10520833333333333" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_homepage_new.xml" value="0.25" />
-        <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_profile.xml" value="0.10520833333333333" />
+        <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_requestjob.xml" value="0.22857142857142856" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_userlogin.xml" value="0.10520833333333333" />
@@ -41,7 +42,9 @@
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_view_req_job.xml" value="0.21" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/activity_viewjob_m.xml" value="0.25" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/homepage_item.xml" value="0.12" />
+        <entry key="..\:/JobSeeker-master/app/src/main/res/layout/register_user.xml" value="0.20416666666666666" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/reqjob_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/JobSeeker-master/app/src/main/res/layout/save_reqjob_item.xml" value="0.20416666666666666" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/layout/toolbar1.xml" value="0.33" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.241" />
         <entry key="..\:/JobSeeker-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1855" />
