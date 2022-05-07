@@ -235,7 +235,7 @@
     <string name="btn_nav_login">Login</string>
     <string name="btn_nav_logout">logout</string>
     <string name="tv_nav_home">Home</string>
-    <string name="tv_nav_myjobs">My Job Listing</string>
+    <string name="tv_nav_myjobs">My Job Vaccanies</string>
     <string name="tv_nav_savedjobs">Saved Jobs</string>
     <string name="tv_nav_requestedjobs">Requested Jobs</string>
     <string name="tv_nav_myreqjobs">My Requested Jobs</string>
