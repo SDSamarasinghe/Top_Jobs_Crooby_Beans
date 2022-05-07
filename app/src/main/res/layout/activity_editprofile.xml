@@ -270,6 +270,7 @@
             android:backgroundTint="@color/netblue"
             android:gravity="center"
             android:text="@string/edit_btn"
+            android:fontFamily="@font/open_sans"
             android:textColor="#FFFFFF" />
 
         <Button
@@ -282,6 +283,7 @@
             android:backgroundTint="@color/warningred"
             android:gravity="center"
             android:text="@string/delete_btn"
+            android:fontFamily="@font/open_sans"
             android:textColor="#FFFFFF" />
     </LinearLayout>
 

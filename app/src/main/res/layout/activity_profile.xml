@@ -215,12 +215,10 @@
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="13dp"
-
+        android:fontFamily="@font/open_sans"
         android:layout_marginBottom="28dp"
         android:backgroundTint="@color/netblue"
-
         android:gravity="center"
-
         android:text="@string/edit_btn"
         android:textColor="#FFFFFF"
         app:backgroundTint="#477EEC"
