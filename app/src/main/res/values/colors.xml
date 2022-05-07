@@ -42,6 +42,8 @@
     <color name="netblue">#11468F</color>
     <color name="warningred">#FF0000</color>
     <color name="updatebtn"> #f0ad4e</color>
+    <color name="ash">#afb1ae</color>
+
 
 
 </resources>
