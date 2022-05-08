@@ -28,8 +28,9 @@
         android:layout_marginTop="204dp"
         android:clickable="true"
         android:focusable="true"
-        android:fontFamily="@font/segoe_bold"
+        android:fontFamily="@font/open_sans"
         android:text="@string/tv_Profile"
+        android:textStyle="bold"
         android:textColor="@color/nav"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -148,10 +149,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="301dp" />
 
-
-
-
-
     <TextView
         android:id="@+id/tv_user_name"
         android:layout_width="wrap_content"
@@ -168,7 +165,6 @@
         android:id="@+id/tv_user_Mno"
         android:layout_width="wrap_content"
         android:fontFamily="@font/open_sans"
-        android:textStyle="bold"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:text=""
@@ -185,7 +181,6 @@
         android:layout_marginStart="100dp"
         android:textSize="15sp"
         android:fontFamily="@font/open_sans"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tv_user_district"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/tv_user_Mno" />
@@ -194,7 +189,6 @@
         android:id="@+id/tv_user_district"
         android:layout_width="wrap_content"
         android:fontFamily="@font/open_sans"
-        android:textStyle="bold"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:text=""
@@ -208,15 +202,12 @@
         android:layout_width="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
         android:text=""
         android:fontFamily="@font/open_sans"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toBottomOf="@+id/tv_user_district" />
-
-
 
     <Button
         android:id="@+id/btn_edit_user"
@@ -245,8 +236,9 @@
         android:layout_marginBottom="112dp"
         android:background="@drawable/button_red_border"
         android:clickable="true"
+        android:fontFamily="@font/open_sans"
         android:focusable="true"
-        android:text="@string/btn_nav_logout"
+        android:text="Logout"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:visibility="visible"
