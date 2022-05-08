@@ -71,9 +71,6 @@ public class  ViewJob extends AppCompatActivity {
         button_job_edit=findViewById(R.id.button_job_edit);
 
 
-
-
-
         databaseReference = FirebaseDatabase.getInstance().getReference().child("create_job").child("5yQhUWmMuCeXFBdbRi6htxb2Nhs2").child("1");
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -90,14 +87,10 @@ public class  ViewJob extends AppCompatActivity {
 
                     job_mobile_tv.setVisibility(View.INVISIBLE);
 
-
                     jobDescription_tv.setText(snapshot.child("description").getValue().toString());
                     imageUrl=(snapshot.child("img").getValue().toString());
 
                     Picasso.get().load(imageUrl).resize(350,150).centerCrop().into(img_compny);
-
-
-
 
                 }
 
@@ -108,8 +101,6 @@ public class  ViewJob extends AppCompatActivity {
 
             }
         });
-
-
 
         btn_call_jv.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -154,13 +145,9 @@ public class  ViewJob extends AppCompatActivity {
                 intent.putExtra("DESCRIPTION",jobDescription_tv.getText().toString());
                 intent.putExtra("Imageurl",imageUrl);
 
-
                 startActivity(intent);
                 //first passing value entering value and then the exit value
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
-
-
-
 
             }
         });

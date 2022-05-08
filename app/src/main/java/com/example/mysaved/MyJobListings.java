@@ -33,7 +33,6 @@ public class MyJobListings extends AppCompatActivity {
     TextView nav_home_txt, nav_savedreqjobs_txt, nav_myjobs_txt, nav_requestedjobs_txt, nav_myreqjobs_txt,nav_savedjobs_txt, nav_profile_txt;
     ProgressBar progressBar_listings_da;
 
-
     TextView joblist;
     Button create_btn;
     RecyclerView recyclerView;
@@ -49,10 +48,8 @@ public class MyJobListings extends AppCompatActivity {
         setContentView(R.layout.activity_my_job_listings);
 
         drawerLayout = findViewById(R.id.drawer_layout);
-
         nav_login = findViewById(R.id.btn_nav_login);
         nav_logout = findViewById(R.id.btn_nav_logout);
-
         nav_home_txt = findViewById(R.id.tv_nav_home);
         nav_myjobs_txt = findViewById(R.id.tv_nav_myjobs);
         nav_savedjobs_txt = findViewById(R.id.tv_nav_savedjobs);
@@ -62,7 +59,7 @@ public class MyJobListings extends AppCompatActivity {
         nav_profile_txt = findViewById(R.id.tv_nav_profile);
         progressBar_listings_da = findViewById(R.id.progressBar_listings_da);
 
-                fAuth = FirebaseAuth.getInstance();
+        fAuth = FirebaseAuth.getInstance();
         joblist = findViewById(R.id.tv_mrjl);
         create_btn = findViewById(R.id.btn_newreq);
 
