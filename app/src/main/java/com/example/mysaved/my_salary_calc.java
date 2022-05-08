@@ -57,8 +57,8 @@ public class my_salary_calc extends AppCompatActivity {
                 double rate = Double.parseDouble(ed2.getText().toString());
 
 
-               double bonus =(salary*rate)/100;
-               double netsal=bonus+salary;
+                double bonus =(salary*rate)/100;
+                double netsal=bonus+salary;
                 ed3.setText(String.valueOf(netsal));
             }
         });
