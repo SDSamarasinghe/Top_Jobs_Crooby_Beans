@@ -63,7 +63,7 @@
 
             <TextView
                 android:id="@+id/tv_req_job_title"
-                android:layout_width="301dp"
+                android:layout_width="300dp"
                 android:layout_height="34dp"
                 android:fontFamily="@font/open_sans"
                 android:paddingStart="15dp"
@@ -256,11 +256,8 @@
                 android:layout_marginBottom="32dp"
                 android:background="#001468"
                 android:text="@string/btn_sendmail_reqjob"
-
                 app:cornerRadius="5dp"
-
                 android:fontFamily="@font/open_sans"
-
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/btn_call_jvr"
@@ -274,10 +271,10 @@
                 android:layout_marginEnd="28dp"
                 android:layout_marginBottom="32dp"
                 android:background="#001468"
-                app:cornerRadius="5dp"
-                android:text="@string/btn_call_reqjob"
                 android:fontFamily="@font/open_sans"
+                android:text="@string/btn_call_reqjob"
                 android:textColor="@color/white"
+                app:cornerRadius="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
@@ -285,10 +282,12 @@
             <TextView
                 android:id="@+id/tv_emailR"
                 android:layout_width="wrap_content"
+                android:layout_marginStart="-60dp"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/open_sans"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.265"
+                app:layout_constraintHorizontal_bias="0.325"
                 app:layout_constraintStart_toEndOf="@+id/textView15" />
 
             <TextView
@@ -298,9 +297,9 @@
                 android:layout_marginStart="48dp"
                 android:layout_marginBottom="28dp"
                 android:fontFamily="@font/open_sans"
-                android:textStyle="bold"
                 android:text="Email  :"
                 android:textColor="@color/black"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/tv_emailR"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -322,9 +321,9 @@
                 android:layout_marginStart="48dp"
                 android:layout_marginBottom="15dp"
                 android:fontFamily="@font/open_sans"
-                android:textStyle="bold"
                 android:text="Phone"
                 android:textColor="@color/black"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/tv_emailR"
                 app:layout_constraintStart_toStartOf="parent" />
 
@@ -333,8 +332,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="32dp"
-                android:text="Edit"
                 android:fontFamily="@font/open_sans"
+                android:text="Edit"
                 app:backgroundTint="#001468"
                 app:cornerRadius="5dp"
                 app:layout_constraintBottom_toBottomOf="parent"

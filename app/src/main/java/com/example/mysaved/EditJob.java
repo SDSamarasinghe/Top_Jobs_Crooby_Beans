@@ -52,11 +52,6 @@ public class EditJob extends AppCompatActivity {
         String date = getIntent().getExtras().getString("POSTDATE");
         String Image = getIntent().getExtras().getString("Imageurl");
 
-
-
-
-
-
         et_companyed=findViewById(R.id.et_companyed);
         btn_edit=findViewById(R.id.btn_edit);
         et_titleed=findViewById(R.id.et_titleed);
@@ -69,13 +64,12 @@ public class EditJob extends AppCompatActivity {
         btn_deletejob=findViewById(R.id.imageView_deletejob);
         imageView155 = findViewById(R.id.imageView155);
 
-
         et_companyed.setText(CompanyName);
         et_titleed.setText(JobTitle);
-       et_salaryed.setText(Salary);
-       et_emailed.setText(Email);
-       et_phoneed.setText(Mobile);
-       et_descriptioned.setText(Description);
+        et_salaryed.setText(Salary);
+        et_emailed.setText(Email);
+        et_phoneed.setText(Mobile);
+        et_descriptioned.setText(Description);
 
         imageView155.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,7 +78,6 @@ public class EditJob extends AppCompatActivity {
                 overridePendingTransition(R.anim.animation_enter, R.anim.animation_leave);
             }
         });
-
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.job_type_ddm, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -103,11 +96,7 @@ public class EditJob extends AppCompatActivity {
         }
         databaseReference = FirebaseDatabase.getInstance().getReference().child("create_job").child(UserID).child(JobID);
 
-
 //      et_jobtypeed.setText(Spinner)(JobType);
-
-
-
 
             btn_edit.setOnClickListener(new View.OnClickListener() {
                 @Override

@@ -56,9 +56,6 @@ public class ViewReqJob extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
 
-
-
-
         databaseReference = FirebaseDatabase.getInstance().getReference().child("job_request").child(userid).child(jobid);
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -72,25 +69,19 @@ public class ViewReqJob extends AppCompatActivity {
                     tv_phoneR.setText(snapshot.child("phone1").getValue().toString());
                     tv_emailR.setText(snapshot.child("email1").getValue().toString());
                     textView5.setText(snapshot.child("date").getValue().toString());
-
-
                     imageUrl = (snapshot.child("img").getValue().toString());
-
                     Picasso.get().load(imageUrl).fit().into(ReqJobImage);
-
 
 //                    resize(2000,1000)
 
                 }
             }
 
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
         });
-
 
         if (fAuth.getCurrentUser() != null)
             if ( fAuth.getCurrentUser().getUid().equals(userid)){

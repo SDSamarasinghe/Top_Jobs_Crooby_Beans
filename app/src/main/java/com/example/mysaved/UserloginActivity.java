@@ -32,8 +32,6 @@ public class UserloginActivity extends AppCompatActivity {
     ImageView login_back_btn;
     FirebaseAuth fAuth;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,7 +63,6 @@ public class UserloginActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
 
-
             String text_email = email.getText().toString().trim();
             String text_password = password.getText().toString().trim();
 
@@ -78,7 +75,6 @@ public class UserloginActivity extends AppCompatActivity {
                 password.setError("Password is required");
                 return;
             }
-
             if(text_password.length() < 6){
                 password.setError("Password must greater than 6 characters");
             }

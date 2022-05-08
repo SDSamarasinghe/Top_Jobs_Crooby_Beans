@@ -39,7 +39,6 @@ public class RegisterUserActivity extends AppCompatActivity {
     String emailPattern = "[a-zA-Z0-9._-]+@[a-z0-9]+\\.+[a-z]+";
     String phonePattern = "[0-9]{10}";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,7 +64,6 @@ public class RegisterUserActivity extends AppCompatActivity {
 //            //using finish method then the user cannot access the back button after going to the homepage
 //            finish();
 //        }
-
 
         signup1.setOnClickListener(new View.OnClickListener() {
             @Override

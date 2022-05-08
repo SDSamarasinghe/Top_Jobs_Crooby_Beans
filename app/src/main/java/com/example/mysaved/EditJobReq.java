@@ -66,7 +66,6 @@ public class EditJobReq extends AppCompatActivity {
         et_phone.setText(EPhone);
         et_description.setText(EDescription);
 
-
         ArrayAdapter<CharSequence> adapterE = ArrayAdapter.createFromResource(this, R.array.gender_vp, android.R.layout.simple_spinner_item);
         adapterE.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         et_gender_editjobReq.setAdapter(adapterE);
@@ -76,7 +75,6 @@ public class EditJobReq extends AppCompatActivity {
         }
 
         databaseReference = FirebaseDatabase.getInstance().getReference().child("job_request").child(UserID).child(ReqJobID);
-
 
         btn_editreq.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,7 +86,6 @@ public class EditJobReq extends AppCompatActivity {
                 String email1 = et_email.getText().toString();
                 String phone1 = et_phone.getText().toString();
                 String gender = et_gender_editjobReq.getSelectedItem().toString();
-
 
                 RequestHelperClass helperClass = new RequestHelperClass(name, title, c_age1, description, email1, phone1, gender, date);
 

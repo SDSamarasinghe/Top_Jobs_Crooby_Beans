@@ -70,6 +70,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/tv_title"
+        android:fontFamily="@font/open_sans"
         android:textColor="#001468"
         android:textSize="30sp"
         android:textStyle="bold"

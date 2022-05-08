@@ -21,7 +21,7 @@
             android:layout_marginTop="40dp"
             android:background="@drawable/button_red_border"
             android:onClick="logout"
-            android:text="@string/btn_nav_logout"
+            android:text="Logout"
             android:textAllCaps="false"
             android:textColor="@color/nav_logout"
             android:visibility="gone"
@@ -34,9 +34,9 @@
             android:layout_marginLeft="25dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/button_blue_border"
+            android:fontFamily="@font/open_sans"
             android:onClick="login"
             android:text="@string/btn_nav_login"
-            android:fontFamily="@font/open_sans"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:visibility="visible"
@@ -44,12 +44,16 @@
 
         <ImageView
             android:id="@+id/imageView13"
-            android:layout_width="173dp"
-            android:layout_height="112dp"
+            android:layout_width="208dp"
+            android:layout_height="83dp"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="205dp"
-            android:layout_marginLeft="200dp"
-            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="-4dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="4dp"
             app:srcCompat="@drawable/newlogomad" />
 
     </RelativeLayout>
