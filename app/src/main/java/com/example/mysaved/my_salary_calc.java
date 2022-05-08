@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View;
 import com.google.firebase.auth.FirebaseAuth;
@@ -25,7 +27,7 @@ public class my_salary_calc extends AppCompatActivity {
     String userID;
     EditText ed1,ed2,ed3;
     Button btn1_btn,btn2_btn;
-
+    ImageView back_sal;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +38,7 @@ public class my_salary_calc extends AppCompatActivity {
         text_calc_user_name =findViewById(R.id.calc_user_name);
         btn1_btn = findViewById(R.id.btn_calc);
         btn2_btn= findViewById(R.id.btn_cl);
+        back_sal= findViewById(R.id.goback);
 
         btn2_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,6 +96,13 @@ public class my_salary_calc extends AppCompatActivity {
 
             }
 
+        });
+
+        back_sal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ViewjobM.class));
+            }
         });
     }
 }

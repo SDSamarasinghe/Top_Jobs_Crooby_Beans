@@ -144,6 +144,21 @@
                             app:layout_constraintHorizontal_bias="0.5"
                             app:layout_constraintStart_toEndOf="@+id/textView36" />
 
+                        <ImageView
+                            android:id="@+id/calc_sal"
+                            android:layout_width="35dp"
+                            android:layout_height="34dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.981"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            app:srcCompat="@drawable/ic_baseline_calculate_24"
+                            tools:ignore="VectorDrawableCompat" />
+
                         <TextView
                             android:id="@+id/jobType_tv_jobView"
                             android:layout_width="wrap_content"

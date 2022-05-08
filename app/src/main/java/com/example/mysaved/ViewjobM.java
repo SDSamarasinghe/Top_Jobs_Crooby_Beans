@@ -31,7 +31,7 @@ import java.util.concurrent.TimeUnit;
 public class ViewjobM extends AppCompatActivity {
     TextView jobTitle_tv, jobLocation_tv, jobType_tv_jobView, jobCompany_tv_jobView, jobSalary_tv_jobView, jobViews_tv_jobView,  jobDescription_tv_jobView,
             jobEmail_tv_jobView, jobDate_tv_jobView,jobDaysAgo_tv_jobView,textView2;
-    ImageView jobImage_tv_jobView,backbtn_img;
+    ImageView jobImage_tv_jobView,backbtn_img,calcimg;
 
     Button btn_email_jv2, btn_call_jv4,Edit_JobView_btn;
     DatabaseReference databaseReference;
@@ -66,6 +66,7 @@ public class ViewjobM extends AppCompatActivity {
         Edit_JobView_btn=findViewById(R.id.Edit_JobView_btn);
         textView2=findViewById(R.id.textView2);
         backbtn_img=findViewById(R.id.imageView22);
+        calcimg=findViewById(R.id.calc_sal);
 
         jobDescription_tv_jobView.setMovementMethod(new ScrollingMovementMethod());
 
@@ -130,7 +131,12 @@ public class ViewjobM extends AppCompatActivity {
 
             }
         });
-
+        calcimg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), my_salary_calc.class));
+            }
+        });
 
         btn_call_jv4.setOnClickListener(new View.OnClickListener() {
             @Override
