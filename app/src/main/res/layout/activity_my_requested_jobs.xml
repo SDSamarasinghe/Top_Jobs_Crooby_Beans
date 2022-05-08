@@ -59,6 +59,7 @@
                 android:id="@+id/tv_mrj"
                 android:layout_width="250dp"
                 android:layout_height="42dp"
+                android:layout_marginStart="9dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/open_sans"
                 android:hint="@string/tv_mrjl"
