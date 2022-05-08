@@ -271,6 +271,7 @@
             android:layout_marginBottom="-160dp"
             android:backgroundTint="@color/netblue"
             android:text="@string/request_btn"
+            android:fontFamily="@font/open_sans"
             android:textColor="#FFFFFF" />
 
 
