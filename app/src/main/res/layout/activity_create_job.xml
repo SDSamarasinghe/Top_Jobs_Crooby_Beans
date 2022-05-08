@@ -215,7 +215,7 @@
             android:layout_marginTop="24dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/roboto"
-            android:text="Job_Type"
+            android:text="Job Type"
             android:textColor="@color/linmblack"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -358,6 +358,7 @@
             android:layout_marginEnd="32dp"
             android:layout_marginBottom="144dp"
             android:hint="@string/tv_addimg"
+            android:fontFamily="@font/open_sans"
             android:textColor="#050505"
             android:textColorHint="#0C0C0C"
             android:textSize="16sp"
@@ -423,6 +424,7 @@
             android:layout_marginBottom="30dp"
             android:backgroundTint="@color/netblue"
             android:text="@string/Create_btn"
+            android:fontFamily="@font/open_sans"
             android:textColor="#FFFFFF" />
 
 
