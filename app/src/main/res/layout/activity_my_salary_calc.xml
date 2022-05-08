@@ -34,7 +34,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/calc_user_name"
         android:layout_width="232dp"
         android:layout_height="56dp"
         android:gravity="center"
@@ -59,7 +59,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498">>
+        app:layout_constraintVertical_bias="0.498">
         <EditText
             android:id="@+id/basic_sal"
             android:layout_width="311dp"
@@ -71,7 +71,7 @@
             android:textColor="@color/black"
             android:textColorHint="@color/ash" />
         <EditText
-            android:id="@+id/basic_sal"
+            android:id="@+id/bonus_rate"
             android:layout_width="311dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -81,7 +81,7 @@
             android:textColor="@color/black"
             android:textColorHint="@color/ash" />
         <EditText
-            android:id="@+id/basic_sal"
+            android:id="@+id/net_sal"
             android:layout_width="311dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -94,18 +94,35 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_sign"
+        android:id="@+id/btn_calc"
         android:layout_width="190dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:backgroundTint="@color/netblue"
+        android:fontFamily="@font/open_sans"
         android:gravity="center"
         android:text="@string/clac"
-        android:fontFamily="@font/open_sans"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="541dp" />
+
+    <Button
+        android:id="@+id/btn_cl"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:text="Close"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="608dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
