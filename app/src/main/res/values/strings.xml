@@ -396,6 +396,7 @@
     <string name="edit_jb">Edit Jobs</string>
     <string name="btn_deletej">"Delete "</string>
     <string name="deletejb">Delete</string>
+    <string name="cancl_sal">Cancel</string>
 
 
 </resources>

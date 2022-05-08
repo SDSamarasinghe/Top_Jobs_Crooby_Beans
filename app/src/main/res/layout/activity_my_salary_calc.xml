@@ -24,6 +24,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/relativeLayout2"
         android:layout_width="412dp"
         android:layout_height="85dp"
         tools:ignore="MissingConstraints"
@@ -31,34 +32,74 @@
         tools:layout_editor_absoluteY="108dp">
 
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="232dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/open_sans"
+            android:gravity="center"
+            android:text="@string/salayheader"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
     </RelativeLayout>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="232dp"
-        android:layout_height="56dp"
-        android:gravity="center"
-        android:text="@string/salayheader"
-        android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="126dp"
-        tools:ignore="MissingConstraints" />
 
     <LinearLayout
         android:id="@+id/linearLayout3"
-        android:layout_width="399dp"
-        android:layout_height="284dp"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/white_logpanel"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498">>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageview_pic"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/open_sans"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+
+            <TextView
+                android:id="@+id/V_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="2dp"
+
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="@string/name"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/calc_user_name"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:fontFamily="@font/open_sans"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
         <EditText
             android:id="@+id/basic_sal"
             android:layout_width="311dp"
@@ -68,8 +109,9 @@
             android:hint="@string/BasicSalary"
             android:textColor="@color/black"
             android:textColorHint="@color/ash" />
+
         <EditText
-            android:id="@+id/basic_sal"
+            android:id="@+id/bonus_rate"
             android:layout_width="311dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -77,8 +119,9 @@
             android:hint="@string/bonus"
             android:textColor="@color/black"
             android:textColorHint="@color/ash" />
+
         <EditText
-            android:id="@+id/basic_sal"
+            android:id="@+id/net_sal"
             android:layout_width="311dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -89,18 +132,48 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btn_sign"
-        android:layout_width="190dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:backgroundTint="@color/netblue"
+    <LinearLayout
+        android:id="@+id/linearlayout_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout_5"
         android:gravity="center"
-        android:text="@string/clac"
-        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="541dp" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.286"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn_calc"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/netblue"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/clac"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn_cl"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/warningred"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans"
+            android:text="@string/cancl_sal"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
