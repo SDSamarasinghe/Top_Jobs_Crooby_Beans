@@ -54,12 +54,10 @@ public class New_Saved_Jobs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_saved_jobs);
 
-
         drawerLayout = findViewById(R.id.drawer_layout);
 
         nav_login = findViewById(R.id.btn_nav_login);
         nav_logout = findViewById(R.id.btn_nav_logout);
-
         nav_home_txt = findViewById(R.id.tv_nav_home);
         nav_myjobs_txt = findViewById(R.id.tv_nav_myjobs);
         nav_savedjobs_txt = findViewById(R.id.tv_nav_savedjobs);
