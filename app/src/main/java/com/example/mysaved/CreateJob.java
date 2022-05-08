@@ -145,34 +145,34 @@ public class CreateJob extends AppCompatActivity {
 
                 //Validations
 
-                if(TextUtils.isEmpty(name)){
+                if(TextUtils.isEmpty(name)){//company name validate
                     company_name.setError("Company Name is Required");
                     return;
                 }
-                if(TextUtils.isEmpty(title)){
+                if(TextUtils.isEmpty(title)){//title validate
                     job_title.setError("Job Title is Required");
                     return;
                 }
-                if(TextUtils.isEmpty(salary1)){
+                if(TextUtils.isEmpty(salary1)){ //salary validate
                     salary.setError("Salary is Required");
                     return;
                 }
-                if(TextUtils.isEmpty(description)){
+                if(TextUtils.isEmpty(description)){ //description validate
                     job_description.setError("Description is Required");
                     return;
                 }
-                if(email.getText().toString().isEmpty()) {
+                if(email.getText().toString().isEmpty()) { //email validate
                     email.setError("Email is Required");
                 }else {
-                    if (!email.getText().toString().trim().matches(emailPattern)) {
+                    if (!email.getText().toString().trim().matches(emailPattern)) { //email pattern validate
                         email.setError("Invalid Email Address");
                         return;
                     }
                 }
-                if(TextUtils.isEmpty(phone1)){
+                if(TextUtils.isEmpty(phone1)){ //phone number validate
                     phone.setError("Phone is Required");
                 }else {
-                    if (!phone.getText().toString().trim().matches(phonePattern)) {
+                    if (!phone.getText().toString().trim().matches(phonePattern)) {//validate phonr pattern
                         phone.setError("Invalid Phone Number");
                         return;
                     }
@@ -191,7 +191,7 @@ public class CreateJob extends AppCompatActivity {
                     Toast.makeText(CreateJob.this, "Please Select Image", Toast.LENGTH_SHORT).show();
                 }
 
-                //increment one by job count
+                //increment count
                 job_id++;
 
                 root.child(String.valueOf(job_id)).setValue(helperClass).addOnSuccessListener(new OnSuccessListener<Void>() {
