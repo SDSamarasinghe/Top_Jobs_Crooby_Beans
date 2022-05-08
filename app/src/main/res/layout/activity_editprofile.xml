@@ -23,6 +23,7 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="-40dp"
             android:layout_weight="1"
             android:fontFamily="@font/open_sans"
             android:gravity="center"
@@ -270,7 +271,6 @@
             android:backgroundTint="@color/netblue"
             android:gravity="center"
             android:text="@string/edit_btn"
-            android:fontFamily="@font/open_sans"
             android:textColor="#FFFFFF" />
 
         <Button
@@ -283,7 +283,6 @@
             android:backgroundTint="@color/warningred"
             android:gravity="center"
             android:text="@string/delete_btn"
-            android:fontFamily="@font/open_sans"
             android:textColor="#FFFFFF" />
     </LinearLayout>
 

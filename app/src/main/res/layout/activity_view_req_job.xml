@@ -63,10 +63,10 @@
 
             <TextView
                 android:id="@+id/tv_req_job_title"
-                android:layout_width="300dp"
+                android:layout_width="301dp"
                 android:layout_height="34dp"
                 android:fontFamily="@font/open_sans"
-                android:paddingStart="15dp"
+                android:paddingStart="110dp"
                 android:paddingLeft="10dp"
                 android:text="@string/tv_requested_jobtitle"
                 android:textStyle="bold"
@@ -282,8 +282,9 @@
             <TextView
                 android:id="@+id/tv_emailR"
                 android:layout_width="wrap_content"
-                android:layout_marginStart="-60dp"
+                android:layout_marginStart="-40dp"
                 android:layout_height="wrap_content"
+
                 android:fontFamily="@font/open_sans"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView15"
                 app:layout_constraintEnd_toEndOf="parent"
