@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.view.View;
 import com.google.firebase.auth.FirebaseAuth;
@@ -25,7 +26,7 @@ public class my_salary_calc extends AppCompatActivity {
     String userID;
     EditText ed1,ed2,ed3;
     Button btn1_btn,btn2_btn;
-
+    ImageView backcalc;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,7 @@ public class my_salary_calc extends AppCompatActivity {
         text_calc_user_name =findViewById(R.id.calc_user_name);
         btn1_btn = findViewById(R.id.btn_calc);
         btn2_btn= findViewById(R.id.btn_cl);
+        backcalc=findViewById(R.id.goback);
 
         btn2_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,7 +59,7 @@ public class my_salary_calc extends AppCompatActivity {
                 double rate = Double.parseDouble(ed2.getText().toString());
 
 
-                double bonus =(salary*rate)/100;
+                double bonus =(salary*rate*0.01);
                 double netsal=bonus+salary;
                 ed3.setText(String.valueOf(netsal));
             }
@@ -93,6 +95,14 @@ public class my_salary_calc extends AppCompatActivity {
 
             }
 
+        });
+
+
+        backcalc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), ViewjobM.class));
+            }
         });
     }
 }
