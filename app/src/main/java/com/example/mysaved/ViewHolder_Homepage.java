@@ -150,13 +150,13 @@ public class ViewHolder_Homepage extends RecyclerView.Adapter<ViewHolder_Homepag
 
                 return;
             }
-            DatabaseReference dbsave = FirebaseDatabase.getInstance().getReference("user")
+            DatabaseReference dbsave = FirebaseDatabase.getInstance().getReference("user") //take a referance for current user saved job
                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                     .child("savejobs");
             int position = getAbsoluteAdapterPosition();
-            HomeList home = list.get(position);
+            HomeList home = list.get(position); //take the details of the current position job
             String savejob = home.id + home.jobid;
-
+            //checked weather clicked job in the list
             if (b){
                 dbsave.child(savejob).setValue(home);
             }else {

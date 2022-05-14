@@ -86,7 +86,7 @@ public class New_Saved_Jobs extends AppCompatActivity {
 
 
             dbcount.child("savejobs").addValueEventListener(new ValueEventListener() {
-                @Override
+                @Override                                    //count
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     if (snapshot.exists()) {
                         count = (int) snapshot.getChildrenCount();

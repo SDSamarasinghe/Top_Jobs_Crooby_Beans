@@ -143,7 +143,7 @@ public class NewReqJob_Homepage extends AppCompatActivity {
                     Collections.reverse(list);
                     viewHolder_reqHomepage = new ViewHolder_ReqHomepage(NewReqJob_Homepage.this,list);
 
-                    recyclerView.setAdapter(viewHolder_reqHomepage);
+                    recyclerView.setAdapter(viewHolder_reqHomepage); //to make cards and set adapter to view
                     viewHolder_reqHomepage.notifyDataSetChanged();
                 }
             }

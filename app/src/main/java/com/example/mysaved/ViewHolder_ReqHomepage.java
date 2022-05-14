@@ -91,7 +91,7 @@ public class ViewHolder_ReqHomepage extends RecyclerView.Adapter<ViewHolder_ReqH
             filterResults.count = filteredReqJobList.size();
             return filterResults;
         }
-
+        //search
         @Override
         protected void publishResults(CharSequence charSequence, FilterResults filterResults) {
 

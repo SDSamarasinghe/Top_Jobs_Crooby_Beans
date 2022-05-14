@@ -92,19 +92,19 @@ public class ViewHolder_SaveJobs extends RecyclerView.Adapter<ViewHolder_SaveJob
                 return;
             }
 
-            DatabaseReference dbremove = FirebaseDatabase.getInstance().getReference("user")
+            DatabaseReference dbremove = FirebaseDatabase.getInstance().getReference("user") //database referance
                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-                    .child("savejobs");
+                    .child("savejobs"); //database collection name
 
             int position = getAbsoluteAdapterPosition();
             HomeList home = Hlist.get(position);
             String savejob = home.id + home.jobid;
             System.out.println(savejob+ " save job");
 
-            if(b){
-                System.out.println(home.id);
+            if(b){                              //checked weather if the current user has already added that clicked job
+                System.out.println(home.id);    //if the job has added delete it from database
                 System.out.println(home.jobid);
-                dbremove.child(savejob).setValue(null);
+                dbremove.child(savejob).setValue(null); //set value set as Null
                 compoundButton.setChecked(false);
             }
         }

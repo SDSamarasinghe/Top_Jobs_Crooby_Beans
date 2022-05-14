@@ -239,7 +239,7 @@
         android:id="@+id/tv_publishdate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="44dp"
         android:layout_marginTop="20dp"
         android:text="@string/tv_publishdate1"
         android:fontFamily="@font/open_sans"

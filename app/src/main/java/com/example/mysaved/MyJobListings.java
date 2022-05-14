@@ -87,7 +87,7 @@ public class MyJobListings extends AppCompatActivity {
             });
 
             userID = fAuth.getCurrentUser().getUid();
-            recyclerView = findViewById(R.id.my_listing_recyclerview);
+            recyclerView = findViewById(R.id.my_listing_recyclerview); //use recyclerView
             recyclerView.setHasFixedSize(true);
             recyclerView.setLayoutManager(new GridLayoutManager(MyJobListings.this, 2));
 
