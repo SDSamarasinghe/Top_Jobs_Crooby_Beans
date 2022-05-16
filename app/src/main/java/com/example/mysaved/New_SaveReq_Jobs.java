@@ -73,7 +73,6 @@ public class New_SaveReq_Jobs extends AppCompatActivity {
             nav_login.setVisibility(View.INVISIBLE);
             nav_logout.setVisibility(View.VISIBLE);
 
-
             auth2 = FirebaseAuth.getInstance();
             currentUserId = auth2.getCurrentUser().getUid();
             savejobs = findViewById(R.id.tv_reqcount);
