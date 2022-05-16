@@ -32,7 +32,6 @@ public class ViewHolder_SaveReqJob extends RecyclerView.Adapter<ViewHolder_SaveR
         this.list = list;
         this.context = context;
     }
-
     @NonNull
     @Override
     public MyReqAdapter onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

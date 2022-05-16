@@ -224,7 +224,6 @@ public class MyRequestedJobs extends AppCompatActivity {
         nav_profile_txt.setTextColor(ContextCompat.getColor(this, R.color.nav));
 
         startActivity(new Intent(getApplicationContext(), New_SaveReq_Jobs.class));
-
     }
 
     public void navClickProfile(View view) {

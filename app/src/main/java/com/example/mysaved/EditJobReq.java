@@ -47,7 +47,6 @@ public class EditJobReq extends AppCompatActivity {
         String date = getIntent().getExtras().getString("DATE");
         String Image = getIntent().getExtras().getString("imageurl");
 
-
         et_name = findViewById(R.id.et_name_editjob);
         et_jobtitle = findViewById(R.id.et_jobtitle_editjob);
         et_age = findViewById(R.id.et_age_editjob);

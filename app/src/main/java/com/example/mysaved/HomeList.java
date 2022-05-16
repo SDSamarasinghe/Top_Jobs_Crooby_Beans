@@ -10,7 +10,6 @@ public class HomeList {
 
     String date,name,title,salary1,job_type,description,email1,phone1,district,img;
 
-
     public HomeList() {
     }
 

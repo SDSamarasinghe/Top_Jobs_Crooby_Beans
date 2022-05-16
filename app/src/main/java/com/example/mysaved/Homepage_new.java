@@ -86,20 +86,11 @@ public class Homepage_new extends AppCompatActivity {
 
         load = findViewById(R.id.d_progressBar4);
 
-
         recyclerView = findViewById(R.id.d_recycle);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(Homepage_new.this));
 
         list = new ArrayList<>();
-
-
-//        DatabaseReference dbsave = FirebaseDatabase.getInstance().getReference("user")
-//                .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
-//                .child("savejobs");
-
-//        save = findViewById(R.id.d_img_bookmark);
-//        save.setChecked(true);
 
         root = FirebaseDatabase.getInstance().getReference();
 

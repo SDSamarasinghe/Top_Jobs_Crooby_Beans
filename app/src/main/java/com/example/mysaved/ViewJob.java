@@ -93,7 +93,6 @@ public class  ViewJob extends AppCompatActivity {
                     Picasso.get().load(imageUrl).resize(350,150).centerCrop().into(img_compny);
 
                 }
-
             }
 
             @Override
